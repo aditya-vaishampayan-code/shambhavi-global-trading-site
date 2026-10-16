@@ -147,6 +147,33 @@ h2 {
 
 h3 { font-size: 20px; line-height: 1.2; }
 
+/* Numbered boxes, as on a bill of lading */
+
+
+.boxno {
+  flex: none;
+  display: inline-grid;
+  place-items: center;
+  width: 0.9em;
+  height: 0.9em;
+  border: 1px solid var(--ink);
+  font-family: var(--typed);
+  font-weight: 700;
+  font-size: 0.6em;
+  margin-right: 0.45em;
+  vertical-align: 0.25em;
+}
+
+.h2-tag {
+  display: block;
+  margin-top: 10px;
+  font-family: var(--typed);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--oxide);
+  letter-spacing: 0;
+}
+
 .btn {
   display: inline-block;
   background: var(--ink);
@@ -203,7 +230,7 @@ h3 { font-size: 20px; line-height: 1.2; }
   gap: clamp(32px, 6vw, 80px);
   align-items: start;
   padding-top: clamp(48px, 8vw, 104px);
-  padding-bottom: clamp(56px, 8vw, 112px);
+  padding-bottom: clamp(104px, 10vw, 140px);
 }
 
 .hero h1 {
@@ -274,7 +301,7 @@ h3 { font-size: 20px; line-height: 1.2; }
 .profile dt {
   padding: 12px 16px;
   border-right: 1px solid var(--hair);
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -291,8 +318,8 @@ h3 { font-size: 20px; line-height: 1.2; }
 
 .stamp {
   position: absolute;
-  right: -46px;
-  bottom: -64px;
+  left: 18px;
+  bottom: -98px;
   display: grid;
   place-items: center;
   width: 118px;
@@ -310,7 +337,7 @@ h3 { font-size: 20px; line-height: 1.2; }
 }
 
 .stamp span { font-weight: 800; font-stretch: 120%; font-size: 24px; letter-spacing: 0.06em; }
-.stamp small { display: block; margin-top: -20px; font-family: var(--typed); font-size: 11px; font-weight: 700; }
+.stamp small { display: block; margin-top: -20px; font-family: var(--typed); font-size: 12px; font-weight: 700; }
 
 /* ---------- Ledger ---------- */
 
@@ -328,7 +355,7 @@ h3 { font-size: 20px; line-height: 1.2; }
 .ledger__row--head {
   padding: 10px 0;
   border-top: 0;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -426,15 +453,15 @@ h3 { font-size: 20px; line-height: 1.2; }
 
 .map-node text, .map-hub text {
   font-family: var(--sans);
-  font-size: 13px;
+  font-size: 18px;
   font-weight: 700;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
   fill: var(--ink);
 }
 
 .map-hub circle { fill: var(--paper); stroke: var(--oxide); stroke-width: 2; }
 .map-hub .inner { fill: var(--oxide); stroke: none; }
-.map-hub text { fill: var(--paper); font-size: 14px; }
+.map-hub text { fill: var(--oxide); font-size: 20px; }
 
 .corridors__map figcaption {
   margin-top: 10px;
@@ -471,11 +498,12 @@ h3 { font-size: 20px; line-height: 1.2; }
 
 .invest__note {
   margin: 0;
-  padding-left: 14px;
-  border-left: 3px solid var(--oxide);
+  font-family: var(--typed);
   color: var(--ink-2);
   font-size: 15px;
 }
+
+.invest__note b { color: var(--oxide); font-weight: 700; }
 
 /* ---------- Company ---------- */
 
@@ -493,7 +521,7 @@ h3 { font-size: 20px; line-height: 1.2; }
 }
 
 .fields dt {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -558,7 +586,7 @@ h3 { font-size: 20px; line-height: 1.2; }
 .form label {
   display: grid;
   gap: 6px;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -579,6 +607,7 @@ h3 { font-size: 20px; line-height: 1.2; }
 }
 
 .form textarea { border: 1px solid var(--ink); padding: 10px; resize: vertical; }
+.form ::placeholder { color: var(--ink-2); opacity: 1; }
 
 .form input:focus, .form textarea:focus { outline: 2px solid var(--oxide); outline-offset: 2px; }
 
@@ -588,7 +617,7 @@ h3 { font-size: 20px; line-height: 1.2; }
 
 .form__choice legend {
   margin-bottom: 10px;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -628,7 +657,7 @@ h3 { font-size: 20px; line-height: 1.2; }
 
 @media (max-width: 960px) {
   .hero, .corridors, .invest, .company__grid, .contact__grid { grid-template-columns: 1fr; }
-  .profile { margin: 0 26px 80px 0; }
+  .profile { margin: 0 26px 96px 0; }
   .people { grid-template-columns: 1fr 1fr; }
   .person { padding: 24px 16px 28px 0 !important; border-right: 0; border-bottom: 1px solid var(--hair); }
   .person:nth-child(even) { padding-left: 16px !important; border-left: 1px solid var(--hair); }
@@ -663,9 +692,13 @@ h3 { font-size: 20px; line-height: 1.2; }
   .profile dl > div { grid-template-columns: 1fr; }
   .profile dt { border-right: 0; padding-bottom: 0; }
   .profile dd { padding-top: 4px; }
-  .stamp { width: 92px; height: 92px; right: -14px; bottom: -74px; }
+  .stamp { width: 92px; height: 92px; left: auto; right: -14px; bottom: -88px; }
   .stamp span { font-size: 19px; }
   .stamp small { margin-top: -14px; font-size: 10px; }
+
+  .map-node text { font-size: 26px; }
+  .map-hub text { font-size: 28px; }
+  .corridors__map figcaption { font-size: 12px; }
 
   .fields > div, .fields--compact > div { grid-template-columns: 1fr; gap: 2px; }
   .form__row { grid-template-columns: 1fr; }
