@@ -56,3 +56,14 @@ form.addEventListener("submit", (e) => {
 });
 
 document.getElementById("year").textContent = new Date().getFullYear();
+
+// Dubai local time in the utility strip
+const clock = document.getElementById("clock");
+const dubaiTime = new Intl.DateTimeFormat("en-GB", {
+  timeZone: "Asia/Dubai",
+  hour: "2-digit",
+  minute: "2-digit",
+});
+const tick = () => { clock.textContent = dubaiTime.format(new Date()); };
+tick();
+setInterval(tick, 30000);

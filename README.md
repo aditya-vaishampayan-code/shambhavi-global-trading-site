@@ -1,6 +1,6 @@
 # Shambhavi Global Trading FZCO — website
 
-Static one-page site: `index.html`, `styles.css`, `script.js`. No build step.
+Static one-page site: `index.html`, `styles.css`, `script.js`, plus `images/`. No build step.
 
 Deploy on Vercel by importing this repo with the **Other** framework preset and no build command.
 
@@ -21,3 +21,9 @@ Each one appears on the page in red brackets, `[ like this ]`.
 ## Enquiry form
 
 There's no backend. On submit, the form opens the visitor's email client with the enquiry filled in. To collect submissions directly, point the form at a handler such as Formspree and replace the submit logic in `script.js`.
+
+## Images
+
+- Commodity, ship and building photos are hotlinked from Unsplash (free licence). Replace them with owned or licensed photography when available.
+- Key people portraits in `images/people/` are from the AP Globale "Who we are" page. Jaydeep Mane has no published photo, so his card shows initials.
+- `images/world-dots.svg` is generated from Natural Earth 110m land outlines (world-atlas package).

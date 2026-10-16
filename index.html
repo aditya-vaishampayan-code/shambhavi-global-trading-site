@@ -7,171 +7,214 @@
   <meta name="description" content="Shambhavi Global Trading FZCO is a Dubai free zone company that buys wood veneer, timber, pulses, coal and steel overseas and supplies them into the UAE and other markets.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..800&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,400..700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
+<div class="utility">
+  <div class="wrap utility__row">
+    <span>A Free Zone Company registered in Dubai, United Arab Emirates</span>
+    <span>Dubai <time id="clock">--:--</time> GST</span>
+  </div>
+</div>
+
 <header class="masthead">
   <div class="wrap masthead__row">
     <a class="wordmark" href="#top" aria-label="Shambhavi Global Trading FZCO, home">
-      <span class="wordmark__name">Shambhavi</span>
-      <span class="wordmark__sub">Global Trading FZCO</span>
+      <span class="wordmark__mark" aria-hidden="true"></span>
+      <span class="wordmark__text">
+        <span class="wordmark__name">Shambhavi</span>
+        <span class="wordmark__sub">Global Trading FZCO</span>
+      </span>
     </a>
     <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
     <nav id="nav" class="nav">
-      <a href="#trade">Trade</a>
+      <a href="#trade">Trading</a>
+      <a href="#corridors">Markets</a>
+      <a href="#people">Company</a>
       <a href="#investment">Investment</a>
-      <a href="#company">Company</a>
-      <a href="#people">People</a>
-      <a href="#contact" class="nav__cta">Enquire</a>
+      <a href="#contact" class="nav__cta">Contact us</a>
     </nav>
   </div>
 </header>
 
 <main id="top">
 
-  <!-- HERO: the company stated as a trade profile -->
-  <section class="hero wrap">
+  <!-- HERO -->
+  <section class="hero">
     <div class="hero__copy">
-      <h1>Veneer, timber, pulses, coal and steel.<br><em>Bought abroad. Delivered on contract.</em></h1>
-      <p class="lede">Shambhavi Global Trading is a Dubai free zone company. We buy goods from overseas suppliers and supply them to distributors, trade partners and buyers in the UAE and beyond.</p>
+      <div class="hero__map" aria-hidden="true"></div>
+      <h1>Trading physical commodities between Europe, Asia and the UAE.</h1>
+      <p class="lede">Shambhavi Global Trading FZCO buys wood veneer, timber, pulses, coal and steel from overseas suppliers and supplies them, on contract, to distributors, trade partners and buyers in the UAE and beyond.</p>
       <div class="hero__actions">
-        <a class="btn" href="#contact">Send a trade enquiry</a>
-        <a class="link" href="#trade">What we trade &darr;</a>
+        <a class="btn" href="#contact">Make a trade enquiry</a>
+        <a class="btn btn--ghost" href="#trade">What we trade</a>
       </div>
     </div>
 
-    <aside class="profile" aria-label="Company trade profile">
-      <div class="profile__head">
-        <span>Trade profile</span>
-        <span>Ref. SGT-01</span>
-      </div>
-      <dl>
-        <div><dt>Primary activity</dt><dd>General trading</dd></div>
-        <div><dt>Secondary activity</dt><dd>Investment in commercial enterprises &amp; management</dd></div>
-        <div><dt>Commodities</dt><dd>Wood veneer · Timber · Pulses · Coal · Steel</dd></div>
-        <div><dt>Trade corridors</dt><dd>Europe · Singapore · U.A.E. · Asia</dd></div>
-        <div><dt>Counterparties</dt><dd>Distributors · Trade partners · Overseas buyers</dd></div>
-        <div><dt>Registered</dt><dd>Free Zone Company (FZCO), Dubai</dd></div>
-        <div><dt>Parent</dt><dd>Neostar InfraProjects Pvt Ltd</dd></div>
-      </dl>
-      <div class="stamp" aria-hidden="true">
-        <span>FZCO</span>
-        <small>Dubai · U.A.E.</small>
-      </div>
-    </aside>
+    <div class="hero__media">
+      <img
+        src="https://images.unsplash.com/photo-1617099588165-314858f77ece?auto=format&fit=crop&w=1400&q=75"
+        srcset="https://images.unsplash.com/photo-1617099588165-314858f77ece?auto=format&fit=crop&w=800&q=75 800w,
+                https://images.unsplash.com/photo-1617099588165-314858f77ece?auto=format&fit=crop&w=1400&q=75 1400w,
+                https://images.unsplash.com/photo-1617099588165-314858f77ece?auto=format&fit=crop&w=2000&q=75 2000w"
+        sizes="(max-width: 960px) 100vw, 55vw"
+        alt="Aerial view of a bulk carrier underway in open water"
+        width="1400" height="1750" fetchpriority="high">
+
+      <aside class="glance" aria-label="Company at a glance">
+        <div class="glance__head">
+          <p class="glance__title">At a glance</p>
+          <p class="glance__tag">Dubai · FZCO</p>
+        </div>
+        <dl class="glance__grid">
+          <div><span class="glance__badge" aria-hidden="true"><svg class="glance__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h15l-3.5-3.5M20 16H5l3.5 3.5"/></svg></span><dt>Primary activity</dt><dd>General trading</dd></div>
+          <div><span class="glance__badge" aria-hidden="true"><svg class="glance__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19.5h16M5.5 15.5l4.5-4.5 3.5 3.5 5.5-6.5M15 8h4v4"/></svg></span><dt>Secondary activity</dt><dd>Investment in commercial enterprises</dd></div>
+          <div><span class="glance__badge" aria-hidden="true"><svg class="glance__icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.6 2.4 2.6 14.6 0 17M12 3.5c-2.6 2.4-2.6 14.6 0 17"/></svg></span><dt>Markets</dt><dd>Europe, Singapore, UAE, Asia</dd></div>
+          <div><span class="glance__badge" aria-hidden="true"><svg class="glance__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20.5V7l7-3.5L19 7v13.5M3.5 20.5h17M9.5 20.5v-4h5v4M9 10h1.5M13.5 10H15M9 13.5h1.5M13.5 13.5H15"/></svg></span><dt>Parent company</dt><dd>Neostar InfraProjects Pvt Ltd</dd></div>
+        </dl>
+        <a class="glance__link" href="#people">Company information <span aria-hidden="true">→</span></a>
+      </aside>
+    </div>
+  </section>
+
+  <!-- KEY FACTS -->
+  <section class="facts" aria-label="Key facts">
+    <div class="wrap facts__grid">
+      <div class="fact"><span class="fact__num">5</span><span class="fact__label">Commodity groups traded</span></div>
+      <div class="fact"><span class="fact__num">4</span><span class="fact__label">Sourcing and supply regions</span></div>
+      <div class="fact"><span class="fact__num">2</span><span class="fact__label">Licensed business activities</span></div>
+      <div class="fact"><span class="fact__num">B2B</span><span class="fact__label">Business counterparties only</span></div>
+    </div>
   </section>
 
   <!-- TRADE -->
   <section id="trade" class="section">
     <div class="wrap">
       <header class="section__head">
-        <h2 class="numbered"><span class="boxno">1</span>What we trade <small class="h2-tag">Primary activity</small></h2>
-        <p class="section__note">Physical commodities, bought in origin markets and supplied in volume. We work business-to-business only.</p>
+        <h2>What we trade</h2>
+        <p class="section__intro">General trading is our primary activity. We source physical commodities in origin markets and supply them in volume to businesses.</p>
       </header>
 
-      <div class="ledger" role="table" aria-label="Commodities traded">
-        <div class="ledger__row ledger__row--head" role="row">
-          <span role="columnheader">Commodity</span>
-          <span role="columnheader">HS ref.</span>
-          <span role="columnheader">Description</span>
-          <span role="columnheader" class="ledger__swatch-h">Sample</span>
-        </div>
+      <div class="goods">
+        <article class="good good--steel">
+          <div class="good__photo">
+            <img src="https://images.unsplash.com/photo-1697698532634-ea59b636ccea?auto=format&fit=crop&w=1200&q=75" alt="Rolled steel coils stacked in a warehouse" loading="lazy" width="1200" height="900">
+          </div>
+          <div class="good__body">
+            <h3>Steel</h3>
+            <p>Coils, sheet and semi-finished products.</p>
+            <span class="good__hs">HS 72</span>
+          </div>
+        </article>
 
-        <div class="ledger__row" role="row">
-          <span role="cell" class="ledger__name">Wood veneer</span>
-          <span role="cell" class="ledger__hs">4408</span>
-          <span role="cell">Sheets for veneering and plywood, sliced or peeled.</span>
-          <span role="cell" class="swatch swatch--veneer" aria-hidden="true"></span>
-        </div>
-        <div class="ledger__row" role="row">
-          <span role="cell" class="ledger__name">Timber</span>
-          <span role="cell" class="ledger__hs">4403 / 4407</span>
-          <span role="cell">Wood in the rough and sawn wood.</span>
-          <span role="cell" class="swatch swatch--timber" aria-hidden="true"></span>
-        </div>
-        <div class="ledger__row" role="row">
-          <span role="cell" class="ledger__name">Pulses</span>
-          <span role="cell" class="ledger__hs">0713</span>
-          <span role="cell">Dried leguminous vegetables: lentils, peas, beans.</span>
-          <span role="cell" class="swatch swatch--pulses" aria-hidden="true"></span>
-        </div>
-        <div class="ledger__row" role="row">
-          <span role="cell" class="ledger__name">Coal</span>
-          <span role="cell" class="ledger__hs">2701</span>
-          <span role="cell">Bulk coal for industrial and energy buyers.</span>
-          <span role="cell" class="swatch swatch--coal" aria-hidden="true"></span>
-        </div>
-        <div class="ledger__row" role="row">
-          <span role="cell" class="ledger__name">Steel</span>
-          <span role="cell" class="ledger__hs">72</span>
-          <span role="cell">Coils, sheet and semi-finished products.</span>
-          <span role="cell" class="swatch swatch--steel" aria-hidden="true"></span>
-        </div>
-      </div>
+        <article class="good good--veneer">
+          <div class="good__photo">
+            <img src="https://images.unsplash.com/photo-1700973408133-b45276ec8feb?auto=format&fit=crop&w=900&q=75" alt="Thin sheets of wood veneer curled in a stack" loading="lazy" width="900" height="600">
+          </div>
+          <div class="good__body">
+            <h3>Wood veneer</h3>
+            <p>Sliced and peeled sheets for veneering and plywood.</p>
+            <span class="good__hs">HS 4408</span>
+          </div>
+        </article>
 
-      <div class="corridors">
-        <div class="corridors__text">
-          <h3>Where goods move</h3>
-          <p>We source from suppliers in Europe, Singapore and across Asia, and supply into the United Arab Emirates and onward to other countries.</p>
-          <ol class="steps">
-            <li><b>Source</b> Agree quantity, specification and price with the overseas supplier.</li>
-            <li><b>Contract</b> Sign supply terms with the distributor or buyer.</li>
-            <li><b>Supply</b> Arrange shipment and delivery into the destination market.</li>
-          </ol>
-        </div>
-        <figure class="corridors__map">
-          <svg viewBox="0 0 640 300" overflow="visible" role="img" aria-labelledby="mapTitle">
-            <title id="mapTitle">Trade corridors: Europe, Singapore and Asia, connected through the U.A.E.</title>
-            <g class="map-lines">
-              <path d="M90 90 C 200 90, 240 160, 320 160" />
-              <path d="M550 90 C 440 90, 400 160, 320 160" />
-              <path d="M550 240 C 440 240, 400 160, 320 160" />
-              <path d="M90 240 C 200 240, 240 160, 320 160" class="dash" />
-            </g>
-            <g class="map-node"><circle cx="90" cy="90" r="6"/><text x="70" y="66" text-anchor="start">EUROPE</text></g>
-            <g class="map-node"><circle cx="550" cy="90" r="6"/><text x="570" y="66" text-anchor="end">SINGAPORE</text></g>
-            <g class="map-node"><circle cx="550" cy="240" r="6"/><text x="570" y="280" text-anchor="end">ASIA</text></g>
-            <g class="map-node map-node--out"><circle cx="90" cy="240" r="6"/><text x="70" y="280" text-anchor="start">OTHER MARKETS</text></g>
-            <g class="map-hub">
-              <circle cx="320" cy="160" r="34"/>
-              <circle cx="320" cy="160" r="26" class="inner"/>
-              <text x="320" y="224" text-anchor="middle">U.A.E.</text>
-            </g>
-          </svg>
-          <figcaption>Schematic, not to scale. Dashed line: onward supply.</figcaption>
-        </figure>
+        <article class="good good--coal">
+          <div class="good__photo">
+            <img src="https://images.unsplash.com/photo-1637076988526-f7a77037845c?auto=format&fit=crop&w=900&q=75" alt="Conveyor dropping coal onto a stockpile" loading="lazy" width="900" height="600">
+          </div>
+          <div class="good__body">
+            <h3>Coal</h3>
+            <p>Bulk coal for industrial and energy buyers.</p>
+            <span class="good__hs">HS 2701</span>
+          </div>
+        </article>
+
+        <article class="good good--timber">
+          <div class="good__photo">
+            <img src="https://images.unsplash.com/photo-1615836671441-cc13250c2158?auto=format&fit=crop&w=1000&q=75" alt="End grain of stacked timber logs" loading="lazy" width="1000" height="600">
+          </div>
+          <div class="good__body">
+            <h3>Timber</h3>
+            <p>Wood in the rough and sawn wood.</p>
+            <span class="good__hs">HS 4403 / 4407</span>
+          </div>
+        </article>
+
+        <article class="good good--pulses">
+          <div class="good__photo">
+            <img src="https://images.unsplash.com/photo-1599579085809-4edbc35cee01?auto=format&fit=crop&w=1000&q=75" alt="Open sacks of lentils, beans and peas" loading="lazy" width="1000" height="600">
+          </div>
+          <div class="good__body">
+            <h3>Pulses</h3>
+            <p>Dried lentils, peas and beans.</p>
+            <span class="good__hs">HS 0713</span>
+          </div>
+        </article>
       </div>
     </div>
   </section>
 
-  <!-- INVESTMENT -->
-  <section id="investment" class="section section--alt">
-    <div class="wrap invest">
-      <header class="section__head">
-        <h2 class="numbered"><span class="boxno">2</span>Investment in commercial enterprises <small class="h2-tag">Secondary activity</small></h2>
-      </header>
-      <div class="invest__body">
-        <p class="invest__lead">We put surplus trading profits and our own funds into a small number of holdings, which we keep and manage alongside the trading business.</p>
-        <ul class="invest__list">
-          <li><span>A</span>Listed securities</li>
-          <li><span>B</span>Unlisted shares and debentures</li>
-          <li><span>C</span>Commercial property</li>
-        </ul>
-        <p class="invest__note"><b>Note:</b> We invest only our own capital. We do not manage money for third parties or offer investment products to the public.</p>
-      </div>
+  <!-- PHOTO BAND -->
+  <section class="band" aria-label="From supplier to buyer">
+    <img src="https://images.unsplash.com/photo-1694716826888-fef0ea06fcd4?auto=format&fit=crop&w=2200&q=75" alt="Geared bulk carrier with deck cranes at anchor" loading="lazy" width="2200" height="1100">
+    <div class="band__inner wrap">
+      <p class="band__line">From the supplier's yard to the buyer's warehouse.</p>
     </div>
   </section>
 
-  <!-- COMPANY -->
-  <section id="company" class="section">
-    <div class="wrap company">
-      <header class="section__head">
-        <h2 class="numbered"><span class="boxno">3</span>Registration &amp; group</h2>
-      </header>
-      <div class="company__grid">
-        <p class="company__text">Shambhavi Global Trading FZCO is licensed in Dubai for two activities: general trading, and investment in commercial enterprises and management. It is a subsidiary of Neostar InfraProjects Pvt Ltd.</p>
+  <!-- MARKETS -->
+  <section id="corridors" class="section section--dark">
+    <div class="wrap corridors">
+      <div class="corridors__text">
+        <h2>Markets and process</h2>
+        <p>We source from suppliers in Europe, Singapore and across Asia, and supply into the United Arab Emirates and onward to other countries.</p>
+        <ol class="steps">
+          <li><b>Source</b> Agree quantity, specification and price with the overseas supplier.</li>
+          <li><b>Contract</b> Sign supply terms with the distributor or buyer.</li>
+          <li><b>Supply</b> Arrange shipment and delivery into the destination market.</li>
+        </ol>
+      </div>
+      <figure class="corridors__map">
+        <svg viewBox="0 0 170 80" role="img" aria-labelledby="mapTitle">
+          <title id="mapTitle">Map of trade flows from Europe, Singapore and East Asia into the United Arab Emirates.</title>
+          <path class="map-dots" d="M7.5 0h0M9.0 0h0M10.5 0h0M12.0 0h0M13.5 0h0M15.0 0h0M16.5 0h0M18.0 0h0M19.5 0h0M21.0 0h0M22.5 0h0M24.0 0h0M25.5 0h0M27.0 0h0M28.5 0h0M30.0 0h0M42.0 0h0M43.5 0h0M45.0 0h0M55.5 0h0M58.5 0h0M60.0 0h0M30.0 1.5h0M31.5 1.5h0M33.0 1.5h0M34.5 1.5h0M36.0 1.5h0M37.5 1.5h0M39.0 1.5h0M42.0 1.5h0M43.5 1.5h0M45.0 1.5h0M46.5 1.5h0M48.0 1.5h0M49.5 1.5h0M51.0 1.5h0M52.5 1.5h0M54.0 1.5h0M55.5 1.5h0M57.0 1.5h0M58.5 1.5h0M60.0 1.5h0M61.5 1.5h0M63.0 1.5h0M64.5 1.5h0M66.0 1.5h0M67.5 1.5h0M69.0 1.5h0M70.5 1.5h0M72.0 1.5h0M73.5 1.5h0M75.0 1.5h0M76.5 1.5h0M78.0 1.5h0M79.5 1.5h0M81.0 1.5h0M82.5 1.5h0M84.0 1.5h0M85.5 1.5h0M87.0 1.5h0M88.5 1.5h0M90.0 1.5h0M91.5 1.5h0M93.0 1.5h0M94.5 1.5h0M96.0 1.5h0M97.5 1.5h0M99.0 1.5h0M100.5 1.5h0M102.0 1.5h0M103.5 1.5h0M105.0 1.5h0M106.5 1.5h0M108.0 1.5h0M109.5 1.5h0M111.0 1.5h0M112.5 1.5h0M114.0 1.5h0M115.5 1.5h0M117.0 1.5h0M118.5 1.5h0M120.0 1.5h0M121.5 1.5h0M123.0 1.5h0M124.5 1.5h0M126.0 1.5h0M127.5 1.5h0M129.0 1.5h0M130.5 1.5h0M132.0 1.5h0M133.5 1.5h0M135.0 1.5h0M136.5 1.5h0M138.0 1.5h0M139.5 1.5h0M141.0 1.5h0M142.5 1.5h0M144.0 1.5h0M145.5 1.5h0M147.0 1.5h0M148.5 1.5h0M150.0 1.5h0M151.5 1.5h0M153.0 1.5h0M154.5 1.5h0M156.0 1.5h0M157.5 1.5h0M159.0 1.5h0M160.5 1.5h0M162.0 1.5h0M163.5 1.5h0M165.0 1.5h0M166.5 1.5h0M168.0 1.5h0M169.5 1.5h0M25.5 3.0h0M27.0 3.0h0M28.5 3.0h0M30.0 3.0h0M31.5 3.0h0M33.0 3.0h0M34.5 3.0h0M36.0 3.0h0M42.0 3.0h0M43.5 3.0h0M45.0 3.0h0M46.5 3.0h0M48.0 3.0h0M49.5 3.0h0M51.0 3.0h0M52.5 3.0h0M54.0 3.0h0M55.5 3.0h0M57.0 3.0h0M58.5 3.0h0M60.0 3.0h0M61.5 3.0h0M63.0 3.0h0M64.5 3.0h0M66.0 3.0h0M67.5 3.0h0M69.0 3.0h0M70.5 3.0h0M72.0 3.0h0M73.5 3.0h0M75.0 3.0h0M76.5 3.0h0M78.0 3.0h0M79.5 3.0h0M81.0 3.0h0M82.5 3.0h0M84.0 3.0h0M85.5 3.0h0M87.0 3.0h0M88.5 3.0h0M90.0 3.0h0M91.5 3.0h0M93.0 3.0h0M94.5 3.0h0M96.0 3.0h0M97.5 3.0h0M99.0 3.0h0M100.5 3.0h0M102.0 3.0h0M103.5 3.0h0M105.0 3.0h0M106.5 3.0h0M108.0 3.0h0M109.5 3.0h0M111.0 3.0h0M112.5 3.0h0M114.0 3.0h0M115.5 3.0h0M117.0 3.0h0M118.5 3.0h0M120.0 3.0h0M121.5 3.0h0M123.0 3.0h0M124.5 3.0h0M126.0 3.0h0M127.5 3.0h0M129.0 3.0h0M130.5 3.0h0M132.0 3.0h0M133.5 3.0h0M135.0 3.0h0M136.5 3.0h0M138.0 3.0h0M139.5 3.0h0M141.0 3.0h0M142.5 3.0h0M144.0 3.0h0M145.5 3.0h0M147.0 3.0h0M148.5 3.0h0M150.0 3.0h0M151.5 3.0h0M153.0 3.0h0M154.5 3.0h0M156.0 3.0h0M157.5 3.0h0M159.0 3.0h0M160.5 3.0h0M162.0 3.0h0M163.5 3.0h0M165.0 3.0h0M166.5 3.0h0M168.0 3.0h0M169.5 3.0h0M25.5 4.5h0M27.0 4.5h0M28.5 4.5h0M30.0 4.5h0M31.5 4.5h0M33.0 4.5h0M34.5 4.5h0M36.0 4.5h0M37.5 4.5h0M42.0 4.5h0M43.5 4.5h0M45.0 4.5h0M46.5 4.5h0M48.0 4.5h0M49.5 4.5h0M51.0 4.5h0M52.5 4.5h0M54.0 4.5h0M55.5 4.5h0M57.0 4.5h0M58.5 4.5h0M60.0 4.5h0M61.5 4.5h0M63.0 4.5h0M64.5 4.5h0M66.0 4.5h0M67.5 4.5h0M69.0 4.5h0M70.5 4.5h0M72.0 4.5h0M73.5 4.5h0M75.0 4.5h0M76.5 4.5h0M78.0 4.5h0M79.5 4.5h0M81.0 4.5h0M82.5 4.5h0M84.0 4.5h0M85.5 4.5h0M87.0 4.5h0M88.5 4.5h0M90.0 4.5h0M91.5 4.5h0M93.0 4.5h0M94.5 4.5h0M96.0 4.5h0M97.5 4.5h0M99.0 4.5h0M100.5 4.5h0M102.0 4.5h0M103.5 4.5h0M105.0 4.5h0M106.5 4.5h0M108.0 4.5h0M109.5 4.5h0M111.0 4.5h0M112.5 4.5h0M114.0 4.5h0M115.5 4.5h0M117.0 4.5h0M118.5 4.5h0M120.0 4.5h0M121.5 4.5h0M123.0 4.5h0M124.5 4.5h0M126.0 4.5h0M127.5 4.5h0M129.0 4.5h0M130.5 4.5h0M132.0 4.5h0M133.5 4.5h0M135.0 4.5h0M136.5 4.5h0M138.0 4.5h0M139.5 4.5h0M141.0 4.5h0M142.5 4.5h0M144.0 4.5h0M145.5 4.5h0M147.0 4.5h0M148.5 4.5h0M150.0 4.5h0M151.5 4.5h0M153.0 4.5h0M154.5 4.5h0M156.0 4.5h0M157.5 4.5h0M159.0 4.5h0M160.5 4.5h0M162.0 4.5h0M163.5 4.5h0M165.0 4.5h0M166.5 4.5h0M168.0 4.5h0M169.5 4.5h0M27.0 6.0h0M28.5 6.0h0M31.5 6.0h0M33.0 6.0h0M34.5 6.0h0M36.0 6.0h0M37.5 6.0h0M43.5 6.0h0M45.0 6.0h0M46.5 6.0h0M48.0 6.0h0M49.5 6.0h0M51.0 6.0h0M52.5 6.0h0M54.0 6.0h0M55.5 6.0h0M57.0 6.0h0M58.5 6.0h0M60.0 6.0h0M61.5 6.0h0M63.0 6.0h0M64.5 6.0h0M66.0 6.0h0M67.5 6.0h0M69.0 6.0h0M70.5 6.0h0M72.0 6.0h0M73.5 6.0h0M75.0 6.0h0M76.5 6.0h0M78.0 6.0h0M79.5 6.0h0M81.0 6.0h0M82.5 6.0h0M84.0 6.0h0M85.5 6.0h0M87.0 6.0h0M88.5 6.0h0M90.0 6.0h0M91.5 6.0h0M93.0 6.0h0M94.5 6.0h0M96.0 6.0h0M97.5 6.0h0M99.0 6.0h0M100.5 6.0h0M102.0 6.0h0M103.5 6.0h0M105.0 6.0h0M106.5 6.0h0M108.0 6.0h0M109.5 6.0h0M111.0 6.0h0M112.5 6.0h0M114.0 6.0h0M115.5 6.0h0M117.0 6.0h0M118.5 6.0h0M120.0 6.0h0M121.5 6.0h0M123.0 6.0h0M124.5 6.0h0M126.0 6.0h0M127.5 6.0h0M129.0 6.0h0M130.5 6.0h0M132.0 6.0h0M133.5 6.0h0M135.0 6.0h0M136.5 6.0h0M138.0 6.0h0M139.5 6.0h0M141.0 6.0h0M142.5 6.0h0M144.0 6.0h0M145.5 6.0h0M147.0 6.0h0M148.5 6.0h0M150.0 6.0h0M151.5 6.0h0M153.0 6.0h0M154.5 6.0h0M156.0 6.0h0M157.5 6.0h0M159.0 6.0h0M160.5 6.0h0M162.0 6.0h0M15.0 7.5h0M16.5 7.5h0M30.0 7.5h0M33.0 7.5h0M34.5 7.5h0M36.0 7.5h0M42.0 7.5h0M45.0 7.5h0M46.5 7.5h0M48.0 7.5h0M49.5 7.5h0M51.0 7.5h0M52.5 7.5h0M54.0 7.5h0M55.5 7.5h0M57.0 7.5h0M58.5 7.5h0M60.0 7.5h0M61.5 7.5h0M63.0 7.5h0M64.5 7.5h0M66.0 7.5h0M67.5 7.5h0M69.0 7.5h0M70.5 7.5h0M72.0 7.5h0M73.5 7.5h0M75.0 7.5h0M76.5 7.5h0M78.0 7.5h0M79.5 7.5h0M81.0 7.5h0M82.5 7.5h0M84.0 7.5h0M85.5 7.5h0M87.0 7.5h0M88.5 7.5h0M90.0 7.5h0M91.5 7.5h0M93.0 7.5h0M94.5 7.5h0M96.0 7.5h0M97.5 7.5h0M99.0 7.5h0M100.5 7.5h0M102.0 7.5h0M103.5 7.5h0M105.0 7.5h0M106.5 7.5h0M108.0 7.5h0M109.5 7.5h0M111.0 7.5h0M112.5 7.5h0M114.0 7.5h0M115.5 7.5h0M117.0 7.5h0M118.5 7.5h0M120.0 7.5h0M121.5 7.5h0M123.0 7.5h0M124.5 7.5h0M126.0 7.5h0M127.5 7.5h0M129.0 7.5h0M130.5 7.5h0M132.0 7.5h0M133.5 7.5h0M135.0 7.5h0M136.5 7.5h0M138.0 7.5h0M139.5 7.5h0M141.0 7.5h0M142.5 7.5h0M144.0 7.5h0M145.5 7.5h0M147.0 7.5h0M148.5 7.5h0M150.0 7.5h0M151.5 7.5h0M153.0 7.5h0M154.5 7.5h0M156.0 7.5h0M157.5 7.5h0M159.0 7.5h0M15.0 9.0h0M16.5 9.0h0M28.5 9.0h0M30.0 9.0h0M33.0 9.0h0M34.5 9.0h0M42.0 9.0h0M43.5 9.0h0M45.0 9.0h0M46.5 9.0h0M48.0 9.0h0M49.5 9.0h0M51.0 9.0h0M52.5 9.0h0M54.0 9.0h0M55.5 9.0h0M57.0 9.0h0M58.5 9.0h0M60.0 9.0h0M61.5 9.0h0M63.0 9.0h0M64.5 9.0h0M66.0 9.0h0M67.5 9.0h0M69.0 9.0h0M70.5 9.0h0M72.0 9.0h0M73.5 9.0h0M75.0 9.0h0M76.5 9.0h0M78.0 9.0h0M79.5 9.0h0M81.0 9.0h0M82.5 9.0h0M84.0 9.0h0M85.5 9.0h0M87.0 9.0h0M88.5 9.0h0M90.0 9.0h0M91.5 9.0h0M93.0 9.0h0M94.5 9.0h0M96.0 9.0h0M97.5 9.0h0M99.0 9.0h0M100.5 9.0h0M102.0 9.0h0M103.5 9.0h0M105.0 9.0h0M106.5 9.0h0M108.0 9.0h0M109.5 9.0h0M111.0 9.0h0M112.5 9.0h0M114.0 9.0h0M115.5 9.0h0M117.0 9.0h0M118.5 9.0h0M120.0 9.0h0M121.5 9.0h0M123.0 9.0h0M124.5 9.0h0M126.0 9.0h0M127.5 9.0h0M129.0 9.0h0M130.5 9.0h0M132.0 9.0h0M133.5 9.0h0M135.0 9.0h0M136.5 9.0h0M138.0 9.0h0M139.5 9.0h0M141.0 9.0h0M142.5 9.0h0M144.0 9.0h0M145.5 9.0h0M147.0 9.0h0M148.5 9.0h0M150.0 9.0h0M151.5 9.0h0M153.0 9.0h0M154.5 9.0h0M156.0 9.0h0M12.0 10.5h0M13.5 10.5h0M16.5 10.5h0M18.0 10.5h0M30.0 10.5h0M37.5 10.5h0M40.5 10.5h0M42.0 10.5h0M43.5 10.5h0M45.0 10.5h0M46.5 10.5h0M48.0 10.5h0M49.5 10.5h0M51.0 10.5h0M52.5 10.5h0M54.0 10.5h0M55.5 10.5h0M57.0 10.5h0M58.5 10.5h0M60.0 10.5h0M61.5 10.5h0M63.0 10.5h0M64.5 10.5h0M66.0 10.5h0M67.5 10.5h0M69.0 10.5h0M70.5 10.5h0M72.0 10.5h0M73.5 10.5h0M75.0 10.5h0M76.5 10.5h0M78.0 10.5h0M79.5 10.5h0M81.0 10.5h0M82.5 10.5h0M84.0 10.5h0M85.5 10.5h0M87.0 10.5h0M88.5 10.5h0M90.0 10.5h0M91.5 10.5h0M93.0 10.5h0M94.5 10.5h0M96.0 10.5h0M97.5 10.5h0M99.0 10.5h0M100.5 10.5h0M102.0 10.5h0M103.5 10.5h0M105.0 10.5h0M106.5 10.5h0M108.0 10.5h0M109.5 10.5h0M111.0 10.5h0M112.5 10.5h0M114.0 10.5h0M115.5 10.5h0M117.0 10.5h0M118.5 10.5h0M120.0 10.5h0M121.5 10.5h0M123.0 10.5h0M124.5 10.5h0M126.0 10.5h0M127.5 10.5h0M129.0 10.5h0M130.5 10.5h0M132.0 10.5h0M133.5 10.5h0M135.0 10.5h0M136.5 10.5h0M138.0 10.5h0M139.5 10.5h0M141.0 10.5h0M142.5 10.5h0M144.0 10.5h0M145.5 10.5h0M147.0 10.5h0M148.5 10.5h0M150.0 10.5h0M151.5 10.5h0M153.0 10.5h0M154.5 10.5h0M156.0 10.5h0M12.0 12.0h0M13.5 12.0h0M16.5 12.0h0M18.0 12.0h0M19.5 12.0h0M25.5 12.0h0M27.0 12.0h0M28.5 12.0h0M30.0 12.0h0M31.5 12.0h0M33.0 12.0h0M34.5 12.0h0M36.0 12.0h0M37.5 12.0h0M39.0 12.0h0M40.5 12.0h0M42.0 12.0h0M43.5 12.0h0M45.0 12.0h0M46.5 12.0h0M48.0 12.0h0M49.5 12.0h0M51.0 12.0h0M52.5 12.0h0M54.0 12.0h0M55.5 12.0h0M57.0 12.0h0M58.5 12.0h0M60.0 12.0h0M61.5 12.0h0M63.0 12.0h0M64.5 12.0h0M66.0 12.0h0M67.5 12.0h0M69.0 12.0h0M70.5 12.0h0M72.0 12.0h0M73.5 12.0h0M75.0 12.0h0M76.5 12.0h0M78.0 12.0h0M79.5 12.0h0M81.0 12.0h0M82.5 12.0h0M84.0 12.0h0M85.5 12.0h0M87.0 12.0h0M88.5 12.0h0M90.0 12.0h0M91.5 12.0h0M93.0 12.0h0M94.5 12.0h0M96.0 12.0h0M97.5 12.0h0M99.0 12.0h0M100.5 12.0h0M102.0 12.0h0M103.5 12.0h0M105.0 12.0h0M106.5 12.0h0M108.0 12.0h0M109.5 12.0h0M111.0 12.0h0M112.5 12.0h0M114.0 12.0h0M115.5 12.0h0M117.0 12.0h0M118.5 12.0h0M120.0 12.0h0M121.5 12.0h0M123.0 12.0h0M124.5 12.0h0M126.0 12.0h0M127.5 12.0h0M129.0 12.0h0M130.5 12.0h0M132.0 12.0h0M133.5 12.0h0M135.0 12.0h0M136.5 12.0h0M138.0 12.0h0M139.5 12.0h0M141.0 12.0h0M142.5 12.0h0M144.0 12.0h0M145.5 12.0h0M147.0 12.0h0M148.5 12.0h0M150.0 12.0h0M151.5 12.0h0M153.0 12.0h0M154.5 12.0h0M156.0 12.0h0M157.5 12.0h0M159.0 12.0h0M160.5 12.0h0M162.0 12.0h0M16.5 13.5h0M18.0 13.5h0M19.5 13.5h0M21.0 13.5h0M24.0 13.5h0M25.5 13.5h0M27.0 13.5h0M28.5 13.5h0M30.0 13.5h0M31.5 13.5h0M33.0 13.5h0M34.5 13.5h0M36.0 13.5h0M37.5 13.5h0M39.0 13.5h0M40.5 13.5h0M42.0 13.5h0M43.5 13.5h0M45.0 13.5h0M46.5 13.5h0M48.0 13.5h0M49.5 13.5h0M51.0 13.5h0M52.5 13.5h0M54.0 13.5h0M55.5 13.5h0M57.0 13.5h0M58.5 13.5h0M60.0 13.5h0M61.5 13.5h0M63.0 13.5h0M64.5 13.5h0M66.0 13.5h0M67.5 13.5h0M69.0 13.5h0M70.5 13.5h0M72.0 13.5h0M73.5 13.5h0M75.0 13.5h0M76.5 13.5h0M78.0 13.5h0M79.5 13.5h0M81.0 13.5h0M82.5 13.5h0M84.0 13.5h0M85.5 13.5h0M87.0 13.5h0M88.5 13.5h0M90.0 13.5h0M91.5 13.5h0M93.0 13.5h0M94.5 13.5h0M96.0 13.5h0M97.5 13.5h0M99.0 13.5h0M100.5 13.5h0M102.0 13.5h0M103.5 13.5h0M105.0 13.5h0M106.5 13.5h0M108.0 13.5h0M109.5 13.5h0M111.0 13.5h0M112.5 13.5h0M114.0 13.5h0M115.5 13.5h0M117.0 13.5h0M118.5 13.5h0M120.0 13.5h0M121.5 13.5h0M123.0 13.5h0M124.5 13.5h0M126.0 13.5h0M127.5 13.5h0M129.0 13.5h0M130.5 13.5h0M132.0 13.5h0M133.5 13.5h0M135.0 13.5h0M136.5 13.5h0M138.0 13.5h0M139.5 13.5h0M141.0 13.5h0M142.5 13.5h0M144.0 13.5h0M145.5 13.5h0M147.0 13.5h0M148.5 13.5h0M150.0 13.5h0M151.5 13.5h0M153.0 13.5h0M154.5 13.5h0M156.0 13.5h0M157.5 13.5h0M159.0 13.5h0M160.5 13.5h0M162.0 13.5h0M21.0 15.0h0M22.5 15.0h0M24.0 15.0h0M25.5 15.0h0M27.0 15.0h0M28.5 15.0h0M30.0 15.0h0M31.5 15.0h0M33.0 15.0h0M34.5 15.0h0M36.0 15.0h0M37.5 15.0h0M39.0 15.0h0M40.5 15.0h0M42.0 15.0h0M43.5 15.0h0M45.0 15.0h0M46.5 15.0h0M48.0 15.0h0M49.5 15.0h0M51.0 15.0h0M52.5 15.0h0M54.0 15.0h0M55.5 15.0h0M57.0 15.0h0M58.5 15.0h0M60.0 15.0h0M61.5 15.0h0M63.0 15.0h0M64.5 15.0h0M66.0 15.0h0M67.5 15.0h0M69.0 15.0h0M70.5 15.0h0M72.0 15.0h0M73.5 15.0h0M75.0 15.0h0M76.5 15.0h0M78.0 15.0h0M79.5 15.0h0M81.0 15.0h0M82.5 15.0h0M84.0 15.0h0M85.5 15.0h0M87.0 15.0h0M88.5 15.0h0M90.0 15.0h0M91.5 15.0h0M93.0 15.0h0M94.5 15.0h0M96.0 15.0h0M97.5 15.0h0M99.0 15.0h0M100.5 15.0h0M102.0 15.0h0M103.5 15.0h0M105.0 15.0h0M106.5 15.0h0M108.0 15.0h0M109.5 15.0h0M111.0 15.0h0M112.5 15.0h0M114.0 15.0h0M115.5 15.0h0M117.0 15.0h0M118.5 15.0h0M120.0 15.0h0M121.5 15.0h0M123.0 15.0h0M124.5 15.0h0M126.0 15.0h0M127.5 15.0h0M129.0 15.0h0M130.5 15.0h0M132.0 15.0h0M133.5 15.0h0M135.0 15.0h0M136.5 15.0h0M138.0 15.0h0M139.5 15.0h0M141.0 15.0h0M142.5 15.0h0M144.0 15.0h0M145.5 15.0h0M147.0 15.0h0M148.5 15.0h0M150.0 15.0h0M151.5 15.0h0M153.0 15.0h0M154.5 15.0h0M156.0 15.0h0M157.5 15.0h0M159.0 15.0h0M160.5 15.0h0M163.5 15.0h0M16.5 16.5h0M18.0 16.5h0M19.5 16.5h0M21.0 16.5h0M22.5 16.5h0M24.0 16.5h0M25.5 16.5h0M27.0 16.5h0M28.5 16.5h0M30.0 16.5h0M31.5 16.5h0M33.0 16.5h0M34.5 16.5h0M36.0 16.5h0M37.5 16.5h0M39.0 16.5h0M40.5 16.5h0M42.0 16.5h0M43.5 16.5h0M45.0 16.5h0M46.5 16.5h0M48.0 16.5h0M49.5 16.5h0M51.0 16.5h0M52.5 16.5h0M54.0 16.5h0M55.5 16.5h0M57.0 16.5h0M58.5 16.5h0M60.0 16.5h0M61.5 16.5h0M63.0 16.5h0M64.5 16.5h0M66.0 16.5h0M67.5 16.5h0M69.0 16.5h0M70.5 16.5h0M72.0 16.5h0M73.5 16.5h0M75.0 16.5h0M76.5 16.5h0M78.0 16.5h0M79.5 16.5h0M81.0 16.5h0M82.5 16.5h0M84.0 16.5h0M85.5 16.5h0M87.0 16.5h0M88.5 16.5h0M90.0 16.5h0M91.5 16.5h0M93.0 16.5h0M94.5 16.5h0M96.0 16.5h0M97.5 16.5h0M99.0 16.5h0M100.5 16.5h0M102.0 16.5h0M103.5 16.5h0M105.0 16.5h0M106.5 16.5h0M108.0 16.5h0M109.5 16.5h0M111.0 16.5h0M112.5 16.5h0M114.0 16.5h0M115.5 16.5h0M117.0 16.5h0M118.5 16.5h0M120.0 16.5h0M121.5 16.5h0M123.0 16.5h0M124.5 16.5h0M126.0 16.5h0M127.5 16.5h0M129.0 16.5h0M130.5 16.5h0M132.0 16.5h0M133.5 16.5h0M135.0 16.5h0M136.5 16.5h0M138.0 16.5h0M139.5 16.5h0M141.0 16.5h0M142.5 16.5h0M144.0 16.5h0M145.5 16.5h0M147.0 16.5h0M148.5 16.5h0M150.0 16.5h0M151.5 16.5h0M153.0 16.5h0M154.5 16.5h0M156.0 16.5h0M157.5 16.5h0M159.0 16.5h0M162.0 16.5h0M18.0 18.0h0M19.5 18.0h0M21.0 18.0h0M22.5 18.0h0M24.0 18.0h0M25.5 18.0h0M27.0 18.0h0M28.5 18.0h0M30.0 18.0h0M31.5 18.0h0M33.0 18.0h0M34.5 18.0h0M36.0 18.0h0M37.5 18.0h0M39.0 18.0h0M40.5 18.0h0M42.0 18.0h0M43.5 18.0h0M45.0 18.0h0M46.5 18.0h0M48.0 18.0h0M49.5 18.0h0M51.0 18.0h0M52.5 18.0h0M54.0 18.0h0M55.5 18.0h0M57.0 18.0h0M60.0 18.0h0M61.5 18.0h0M63.0 18.0h0M64.5 18.0h0M66.0 18.0h0M67.5 18.0h0M69.0 18.0h0M70.5 18.0h0M72.0 18.0h0M73.5 18.0h0M75.0 18.0h0M76.5 18.0h0M78.0 18.0h0M79.5 18.0h0M81.0 18.0h0M82.5 18.0h0M84.0 18.0h0M85.5 18.0h0M87.0 18.0h0M88.5 18.0h0M90.0 18.0h0M91.5 18.0h0M93.0 18.0h0M94.5 18.0h0M96.0 18.0h0M97.5 18.0h0M99.0 18.0h0M100.5 18.0h0M102.0 18.0h0M103.5 18.0h0M105.0 18.0h0M106.5 18.0h0M108.0 18.0h0M109.5 18.0h0M111.0 18.0h0M112.5 18.0h0M114.0 18.0h0M115.5 18.0h0M117.0 18.0h0M118.5 18.0h0M120.0 18.0h0M121.5 18.0h0M123.0 18.0h0M124.5 18.0h0M126.0 18.0h0M127.5 18.0h0M129.0 18.0h0M130.5 18.0h0M132.0 18.0h0M133.5 18.0h0M135.0 18.0h0M136.5 18.0h0M138.0 18.0h0M139.5 18.0h0M141.0 18.0h0M142.5 18.0h0M144.0 18.0h0M145.5 18.0h0M147.0 18.0h0M148.5 18.0h0M150.0 18.0h0M151.5 18.0h0M153.0 18.0h0M154.5 18.0h0M156.0 18.0h0M157.5 18.0h0M162.0 18.0h0M19.5 19.5h0M21.0 19.5h0M22.5 19.5h0M24.0 19.5h0M25.5 19.5h0M27.0 19.5h0M28.5 19.5h0M30.0 19.5h0M31.5 19.5h0M34.5 19.5h0M36.0 19.5h0M37.5 19.5h0M39.0 19.5h0M40.5 19.5h0M42.0 19.5h0M43.5 19.5h0M45.0 19.5h0M46.5 19.5h0M48.0 19.5h0M49.5 19.5h0M54.0 19.5h0M58.5 19.5h0M60.0 19.5h0M61.5 19.5h0M63.0 19.5h0M64.5 19.5h0M66.0 19.5h0M67.5 19.5h0M73.5 19.5h0M75.0 19.5h0M76.5 19.5h0M78.0 19.5h0M79.5 19.5h0M81.0 19.5h0M82.5 19.5h0M84.0 19.5h0M85.5 19.5h0M87.0 19.5h0M88.5 19.5h0M90.0 19.5h0M91.5 19.5h0M93.0 19.5h0M94.5 19.5h0M96.0 19.5h0M97.5 19.5h0M99.0 19.5h0M100.5 19.5h0M102.0 19.5h0M103.5 19.5h0M105.0 19.5h0M106.5 19.5h0M108.0 19.5h0M109.5 19.5h0M111.0 19.5h0M112.5 19.5h0M114.0 19.5h0M115.5 19.5h0M117.0 19.5h0M118.5 19.5h0M120.0 19.5h0M121.5 19.5h0M123.0 19.5h0M124.5 19.5h0M126.0 19.5h0M127.5 19.5h0M129.0 19.5h0M130.5 19.5h0M132.0 19.5h0M133.5 19.5h0M135.0 19.5h0M136.5 19.5h0M138.0 19.5h0M139.5 19.5h0M141.0 19.5h0M142.5 19.5h0M144.0 19.5h0M145.5 19.5h0M147.0 19.5h0M148.5 19.5h0M150.0 19.5h0M151.5 19.5h0M153.0 19.5h0M154.5 19.5h0M156.0 19.5h0M162.0 19.5h0M19.5 21.0h0M21.0 21.0h0M22.5 21.0h0M24.0 21.0h0M25.5 21.0h0M27.0 21.0h0M30.0 21.0h0M31.5 21.0h0M36.0 21.0h0M37.5 21.0h0M39.0 21.0h0M40.5 21.0h0M42.0 21.0h0M43.5 21.0h0M45.0 21.0h0M46.5 21.0h0M48.0 21.0h0M60.0 21.0h0M61.5 21.0h0M63.0 21.0h0M64.5 21.0h0M66.0 21.0h0M72.0 21.0h0M73.5 21.0h0M75.0 21.0h0M76.5 21.0h0M78.0 21.0h0M79.5 21.0h0M81.0 21.0h0M82.5 21.0h0M84.0 21.0h0M85.5 21.0h0M87.0 21.0h0M88.5 21.0h0M90.0 21.0h0M91.5 21.0h0M93.0 21.0h0M94.5 21.0h0M96.0 21.0h0M97.5 21.0h0M99.0 21.0h0M100.5 21.0h0M102.0 21.0h0M103.5 21.0h0M105.0 21.0h0M106.5 21.0h0M108.0 21.0h0M109.5 21.0h0M111.0 21.0h0M112.5 21.0h0M114.0 21.0h0M115.5 21.0h0M117.0 21.0h0M118.5 21.0h0M120.0 21.0h0M121.5 21.0h0M123.0 21.0h0M124.5 21.0h0M126.0 21.0h0M127.5 21.0h0M129.0 21.0h0M130.5 21.0h0M132.0 21.0h0M133.5 21.0h0M135.0 21.0h0M136.5 21.0h0M138.0 21.0h0M139.5 21.0h0M141.0 21.0h0M142.5 21.0h0M144.0 21.0h0M145.5 21.0h0M147.0 21.0h0M148.5 21.0h0M150.0 21.0h0M151.5 21.0h0M153.0 21.0h0M154.5 21.0h0M162.0 21.0h0M163.5 21.0h0M165.0 21.0h0M12.0 22.5h0M13.5 22.5h0M15.0 22.5h0M16.5 22.5h0M18.0 22.5h0M19.5 22.5h0M21.0 22.5h0M22.5 22.5h0M31.5 22.5h0M33.0 22.5h0M39.0 22.5h0M40.5 22.5h0M42.0 22.5h0M43.5 22.5h0M45.0 22.5h0M46.5 22.5h0M63.0 22.5h0M64.5 22.5h0M66.0 22.5h0M67.5 22.5h0M73.5 22.5h0M75.0 22.5h0M76.5 22.5h0M78.0 22.5h0M79.5 22.5h0M81.0 22.5h0M82.5 22.5h0M84.0 22.5h0M85.5 22.5h0M87.0 22.5h0M88.5 22.5h0M90.0 22.5h0M91.5 22.5h0M93.0 22.5h0M94.5 22.5h0M96.0 22.5h0M97.5 22.5h0M99.0 22.5h0M100.5 22.5h0M102.0 22.5h0M103.5 22.5h0M105.0 22.5h0M106.5 22.5h0M108.0 22.5h0M109.5 22.5h0M111.0 22.5h0M112.5 22.5h0M114.0 22.5h0M115.5 22.5h0M117.0 22.5h0M118.5 22.5h0M120.0 22.5h0M121.5 22.5h0M123.0 22.5h0M124.5 22.5h0M126.0 22.5h0M127.5 22.5h0M129.0 22.5h0M130.5 22.5h0M132.0 22.5h0M133.5 22.5h0M135.0 22.5h0M136.5 22.5h0M138.0 22.5h0M139.5 22.5h0M141.0 22.5h0M142.5 22.5h0M144.0 22.5h0M145.5 22.5h0M147.0 22.5h0M148.5 22.5h0M150.0 22.5h0M160.5 22.5h0M163.5 22.5h0M12.0 24.0h0M13.5 24.0h0M15.0 24.0h0M16.5 24.0h0M18.0 24.0h0M19.5 24.0h0M34.5 24.0h0M36.0 24.0h0M40.5 24.0h0M42.0 24.0h0M43.5 24.0h0M45.0 24.0h0M46.5 24.0h0M49.5 24.0h0M51.0 24.0h0M52.5 24.0h0M54.0 24.0h0M55.5 24.0h0M57.0 24.0h0M60.0 24.0h0M61.5 24.0h0M63.0 24.0h0M64.5 24.0h0M66.0 24.0h0M67.5 24.0h0M69.0 24.0h0M75.0 24.0h0M76.5 24.0h0M78.0 24.0h0M79.5 24.0h0M81.0 24.0h0M82.5 24.0h0M84.0 24.0h0M85.5 24.0h0M87.0 24.0h0M88.5 24.0h0M90.0 24.0h0M91.5 24.0h0M93.0 24.0h0M94.5 24.0h0M96.0 24.0h0M97.5 24.0h0M99.0 24.0h0M100.5 24.0h0M102.0 24.0h0M103.5 24.0h0M105.0 24.0h0M106.5 24.0h0M108.0 24.0h0M109.5 24.0h0M111.0 24.0h0M112.5 24.0h0M114.0 24.0h0M115.5 24.0h0M117.0 24.0h0M118.5 24.0h0M120.0 24.0h0M121.5 24.0h0M123.0 24.0h0M124.5 24.0h0M126.0 24.0h0M127.5 24.0h0M129.0 24.0h0M130.5 24.0h0M132.0 24.0h0M133.5 24.0h0M135.0 24.0h0M136.5 24.0h0M138.0 24.0h0M139.5 24.0h0M141.0 24.0h0M142.5 24.0h0M144.0 24.0h0M145.5 24.0h0M147.0 24.0h0M148.5 24.0h0M160.5 24.0h0M12.0 25.5h0M13.5 25.5h0M15.0 25.5h0M16.5 25.5h0M18.0 25.5h0M19.5 25.5h0M28.5 25.5h0M36.0 25.5h0M40.5 25.5h0M42.0 25.5h0M46.5 25.5h0M48.0 25.5h0M49.5 25.5h0M51.0 25.5h0M52.5 25.5h0M54.0 25.5h0M55.5 25.5h0M57.0 25.5h0M58.5 25.5h0M60.0 25.5h0M61.5 25.5h0M63.0 25.5h0M64.5 25.5h0M66.0 25.5h0M67.5 25.5h0M69.0 25.5h0M73.5 25.5h0M75.0 25.5h0M76.5 25.5h0M78.0 25.5h0M79.5 25.5h0M81.0 25.5h0M82.5 25.5h0M84.0 25.5h0M85.5 25.5h0M87.0 25.5h0M88.5 25.5h0M90.0 25.5h0M91.5 25.5h0M93.0 25.5h0M94.5 25.5h0M96.0 25.5h0M97.5 25.5h0M99.0 25.5h0M100.5 25.5h0M102.0 25.5h0M103.5 25.5h0M105.0 25.5h0M106.5 25.5h0M108.0 25.5h0M109.5 25.5h0M111.0 25.5h0M112.5 25.5h0M114.0 25.5h0M115.5 25.5h0M117.0 25.5h0M118.5 25.5h0M120.0 25.5h0M121.5 25.5h0M123.0 25.5h0M124.5 25.5h0M126.0 25.5h0M127.5 25.5h0M129.0 25.5h0M130.5 25.5h0M132.0 25.5h0M133.5 25.5h0M135.0 25.5h0M136.5 25.5h0M138.0 25.5h0M142.5 25.5h0M145.5 25.5h0M147.0 25.5h0M160.5 25.5h0M12.0 27.0h0M13.5 27.0h0M15.0 27.0h0M16.5 27.0h0M18.0 27.0h0M33.0 27.0h0M34.5 27.0h0M36.0 27.0h0M42.0 27.0h0M43.5 27.0h0M48.0 27.0h0M49.5 27.0h0M51.0 27.0h0M52.5 27.0h0M54.0 27.0h0M55.5 27.0h0M57.0 27.0h0M58.5 27.0h0M60.0 27.0h0M61.5 27.0h0M63.0 27.0h0M64.5 27.0h0M66.0 27.0h0M67.5 27.0h0M69.0 27.0h0M75.0 27.0h0M76.5 27.0h0M78.0 27.0h0M79.5 27.0h0M81.0 27.0h0M82.5 27.0h0M84.0 27.0h0M85.5 27.0h0M87.0 27.0h0M88.5 27.0h0M90.0 27.0h0M91.5 27.0h0M93.0 27.0h0M94.5 27.0h0M96.0 27.0h0M97.5 27.0h0M99.0 27.0h0M100.5 27.0h0M102.0 27.0h0M103.5 27.0h0M105.0 27.0h0M106.5 27.0h0M108.0 27.0h0M109.5 27.0h0M111.0 27.0h0M112.5 27.0h0M114.0 27.0h0M115.5 27.0h0M117.0 27.0h0M118.5 27.0h0M120.0 27.0h0M121.5 27.0h0M123.0 27.0h0M124.5 27.0h0M126.0 27.0h0M127.5 27.0h0M129.0 27.0h0M130.5 27.0h0M132.0 27.0h0M133.5 27.0h0M135.0 27.0h0M136.5 27.0h0M138.0 27.0h0M145.5 27.0h0M147.0 27.0h0M148.5 27.0h0M160.5 27.0h0M15.0 28.5h0M22.5 28.5h0M24.0 28.5h0M25.5 28.5h0M27.0 28.5h0M28.5 28.5h0M30.0 28.5h0M49.5 28.5h0M52.5 28.5h0M54.0 28.5h0M57.0 28.5h0M58.5 28.5h0M60.0 28.5h0M61.5 28.5h0M63.0 28.5h0M64.5 28.5h0M66.0 28.5h0M67.5 28.5h0M69.0 28.5h0M70.5 28.5h0M72.0 28.5h0M73.5 28.5h0M75.0 28.5h0M76.5 28.5h0M78.0 28.5h0M79.5 28.5h0M81.0 28.5h0M82.5 28.5h0M84.0 28.5h0M85.5 28.5h0M87.0 28.5h0M88.5 28.5h0M90.0 28.5h0M91.5 28.5h0M93.0 28.5h0M94.5 28.5h0M96.0 28.5h0M97.5 28.5h0M99.0 28.5h0M100.5 28.5h0M102.0 28.5h0M103.5 28.5h0M105.0 28.5h0M106.5 28.5h0M108.0 28.5h0M109.5 28.5h0M111.0 28.5h0M112.5 28.5h0M114.0 28.5h0M115.5 28.5h0M117.0 28.5h0M118.5 28.5h0M120.0 28.5h0M121.5 28.5h0M123.0 28.5h0M124.5 28.5h0M126.0 28.5h0M127.5 28.5h0M129.0 28.5h0M130.5 28.5h0M132.0 28.5h0M133.5 28.5h0M135.0 28.5h0M136.5 28.5h0M138.0 28.5h0M139.5 28.5h0M147.0 28.5h0M148.5 28.5h0M157.5 28.5h0M159.0 28.5h0M160.5 28.5h0M15.0 30.0h0M16.5 30.0h0M18.0 30.0h0M19.5 30.0h0M21.0 30.0h0M22.5 30.0h0M24.0 30.0h0M25.5 30.0h0M27.0 30.0h0M28.5 30.0h0M30.0 30.0h0M45.0 30.0h0M52.5 30.0h0M57.0 30.0h0M58.5 30.0h0M60.0 30.0h0M61.5 30.0h0M63.0 30.0h0M64.5 30.0h0M66.0 30.0h0M67.5 30.0h0M69.0 30.0h0M70.5 30.0h0M72.0 30.0h0M73.5 30.0h0M75.0 30.0h0M76.5 30.0h0M78.0 30.0h0M79.5 30.0h0M81.0 30.0h0M82.5 30.0h0M84.0 30.0h0M85.5 30.0h0M87.0 30.0h0M88.5 30.0h0M90.0 30.0h0M91.5 30.0h0M93.0 30.0h0M94.5 30.0h0M96.0 30.0h0M97.5 30.0h0M99.0 30.0h0M100.5 30.0h0M102.0 30.0h0M103.5 30.0h0M105.0 30.0h0M106.5 30.0h0M108.0 30.0h0M109.5 30.0h0M111.0 30.0h0M112.5 30.0h0M114.0 30.0h0M115.5 30.0h0M117.0 30.0h0M118.5 30.0h0M120.0 30.0h0M121.5 30.0h0M123.0 30.0h0M124.5 30.0h0M126.0 30.0h0M127.5 30.0h0M129.0 30.0h0M130.5 30.0h0M132.0 30.0h0M133.5 30.0h0M135.0 30.0h0M136.5 30.0h0M138.0 30.0h0M147.0 30.0h0M148.5 30.0h0M153.0 30.0h0M154.5 30.0h0M156.0 30.0h0M157.5 30.0h0M159.0 30.0h0M12.0 31.5h0M13.5 31.5h0M15.0 31.5h0M16.5 31.5h0M18.0 31.5h0M19.5 31.5h0M21.0 31.5h0M22.5 31.5h0M24.0 31.5h0M25.5 31.5h0M27.0 31.5h0M28.5 31.5h0M30.0 31.5h0M55.5 31.5h0M57.0 31.5h0M58.5 31.5h0M60.0 31.5h0M61.5 31.5h0M63.0 31.5h0M64.5 31.5h0M66.0 31.5h0M67.5 31.5h0M69.0 31.5h0M70.5 31.5h0M72.0 31.5h0M73.5 31.5h0M75.0 31.5h0M76.5 31.5h0M78.0 31.5h0M79.5 31.5h0M81.0 31.5h0M82.5 31.5h0M84.0 31.5h0M85.5 31.5h0M87.0 31.5h0M88.5 31.5h0M90.0 31.5h0M91.5 31.5h0M93.0 31.5h0M94.5 31.5h0M96.0 31.5h0M97.5 31.5h0M99.0 31.5h0M100.5 31.5h0M102.0 31.5h0M103.5 31.5h0M105.0 31.5h0M106.5 31.5h0M108.0 31.5h0M109.5 31.5h0M111.0 31.5h0M112.5 31.5h0M114.0 31.5h0M115.5 31.5h0M117.0 31.5h0M118.5 31.5h0M120.0 31.5h0M121.5 31.5h0M123.0 31.5h0M124.5 31.5h0M126.0 31.5h0M127.5 31.5h0M129.0 31.5h0M130.5 31.5h0M132.0 31.5h0M133.5 31.5h0M135.0 31.5h0M136.5 31.5h0M138.0 31.5h0M139.5 31.5h0M151.5 31.5h0M153.0 31.5h0M12.0 33.0h0M13.5 33.0h0M15.0 33.0h0M16.5 33.0h0M18.0 33.0h0M19.5 33.0h0M21.0 33.0h0M22.5 33.0h0M24.0 33.0h0M25.5 33.0h0M27.0 33.0h0M28.5 33.0h0M30.0 33.0h0M31.5 33.0h0M33.0 33.0h0M34.5 33.0h0M40.5 33.0h0M42.0 33.0h0M43.5 33.0h0M55.5 33.0h0M57.0 33.0h0M58.5 33.0h0M60.0 33.0h0M61.5 33.0h0M63.0 33.0h0M64.5 33.0h0M66.0 33.0h0M67.5 33.0h0M69.0 33.0h0M70.5 33.0h0M72.0 33.0h0M73.5 33.0h0M75.0 33.0h0M76.5 33.0h0M78.0 33.0h0M79.5 33.0h0M81.0 33.0h0M82.5 33.0h0M84.0 33.0h0M85.5 33.0h0M87.0 33.0h0M88.5 33.0h0M90.0 33.0h0M91.5 33.0h0M93.0 33.0h0M94.5 33.0h0M96.0 33.0h0M97.5 33.0h0M99.0 33.0h0M100.5 33.0h0M102.0 33.0h0M103.5 33.0h0M105.0 33.0h0M106.5 33.0h0M108.0 33.0h0M109.5 33.0h0M111.0 33.0h0M112.5 33.0h0M114.0 33.0h0M115.5 33.0h0M117.0 33.0h0M118.5 33.0h0M120.0 33.0h0M121.5 33.0h0M123.0 33.0h0M124.5 33.0h0M126.0 33.0h0M127.5 33.0h0M129.0 33.0h0M130.5 33.0h0M132.0 33.0h0M133.5 33.0h0M135.0 33.0h0M136.5 33.0h0M138.0 33.0h0M139.5 33.0h0M141.0 33.0h0M151.5 33.0h0M10.5 34.5h0M12.0 34.5h0M13.5 34.5h0M15.0 34.5h0M16.5 34.5h0M18.0 34.5h0M19.5 34.5h0M21.0 34.5h0M22.5 34.5h0M24.0 34.5h0M25.5 34.5h0M27.0 34.5h0M28.5 34.5h0M30.0 34.5h0M31.5 34.5h0M33.0 34.5h0M34.5 34.5h0M36.0 34.5h0M37.5 34.5h0M40.5 34.5h0M42.0 34.5h0M43.5 34.5h0M45.0 34.5h0M46.5 34.5h0M48.0 34.5h0M49.5 34.5h0M51.0 34.5h0M52.5 34.5h0M54.0 34.5h0M55.5 34.5h0M57.0 34.5h0M58.5 34.5h0M60.0 34.5h0M61.5 34.5h0M63.0 34.5h0M64.5 34.5h0M66.0 34.5h0M67.5 34.5h0M69.0 34.5h0M70.5 34.5h0M72.0 34.5h0M73.5 34.5h0M75.0 34.5h0M76.5 34.5h0M78.0 34.5h0M79.5 34.5h0M81.0 34.5h0M82.5 34.5h0M84.0 34.5h0M85.5 34.5h0M87.0 34.5h0M88.5 34.5h0M90.0 34.5h0M91.5 34.5h0M93.0 34.5h0M94.5 34.5h0M96.0 34.5h0M97.5 34.5h0M99.0 34.5h0M100.5 34.5h0M102.0 34.5h0M103.5 34.5h0M105.0 34.5h0M106.5 34.5h0M108.0 34.5h0M109.5 34.5h0M111.0 34.5h0M112.5 34.5h0M114.0 34.5h0M115.5 34.5h0M117.0 34.5h0M118.5 34.5h0M120.0 34.5h0M121.5 34.5h0M123.0 34.5h0M124.5 34.5h0M126.0 34.5h0M127.5 34.5h0M129.0 34.5h0M130.5 34.5h0M132.0 34.5h0M133.5 34.5h0M135.0 34.5h0M136.5 34.5h0M138.0 34.5h0M139.5 34.5h0M141.0 34.5h0M10.5 36.0h0M12.0 36.0h0M13.5 36.0h0M15.0 36.0h0M16.5 36.0h0M18.0 36.0h0M19.5 36.0h0M21.0 36.0h0M22.5 36.0h0M24.0 36.0h0M25.5 36.0h0M27.0 36.0h0M28.5 36.0h0M30.0 36.0h0M31.5 36.0h0M33.0 36.0h0M34.5 36.0h0M36.0 36.0h0M37.5 36.0h0M39.0 36.0h0M40.5 36.0h0M42.0 36.0h0M43.5 36.0h0M45.0 36.0h0M46.5 36.0h0M48.0 36.0h0M49.5 36.0h0M51.0 36.0h0M52.5 36.0h0M54.0 36.0h0M55.5 36.0h0M57.0 36.0h0M58.5 36.0h0M60.0 36.0h0M61.5 36.0h0M63.0 36.0h0M64.5 36.0h0M66.0 36.0h0M67.5 36.0h0M72.0 36.0h0M73.5 36.0h0M75.0 36.0h0M76.5 36.0h0M78.0 36.0h0M79.5 36.0h0M81.0 36.0h0M82.5 36.0h0M84.0 36.0h0M85.5 36.0h0M87.0 36.0h0M88.5 36.0h0M90.0 36.0h0M91.5 36.0h0M93.0 36.0h0M94.5 36.0h0M96.0 36.0h0M97.5 36.0h0M99.0 36.0h0M100.5 36.0h0M102.0 36.0h0M103.5 36.0h0M105.0 36.0h0M106.5 36.0h0M108.0 36.0h0M109.5 36.0h0M111.0 36.0h0M112.5 36.0h0M114.0 36.0h0M115.5 36.0h0M117.0 36.0h0M118.5 36.0h0M120.0 36.0h0M121.5 36.0h0M123.0 36.0h0M124.5 36.0h0M126.0 36.0h0M127.5 36.0h0M129.0 36.0h0M130.5 36.0h0M132.0 36.0h0M133.5 36.0h0M135.0 36.0h0M136.5 36.0h0M138.0 36.0h0M139.5 36.0h0M141.0 36.0h0M7.5 37.5h0M9.0 37.5h0M10.5 37.5h0M12.0 37.5h0M13.5 37.5h0M15.0 37.5h0M16.5 37.5h0M18.0 37.5h0M19.5 37.5h0M21.0 37.5h0M22.5 37.5h0M24.0 37.5h0M25.5 37.5h0M27.0 37.5h0M28.5 37.5h0M30.0 37.5h0M31.5 37.5h0M33.0 37.5h0M34.5 37.5h0M36.0 37.5h0M37.5 37.5h0M39.0 37.5h0M40.5 37.5h0M42.0 37.5h0M43.5 37.5h0M45.0 37.5h0M46.5 37.5h0M48.0 37.5h0M49.5 37.5h0M51.0 37.5h0M52.5 37.5h0M57.0 37.5h0M58.5 37.5h0M60.0 37.5h0M61.5 37.5h0M63.0 37.5h0M64.5 37.5h0M66.0 37.5h0M67.5 37.5h0M69.0 37.5h0M73.5 37.5h0M75.0 37.5h0M76.5 37.5h0M78.0 37.5h0M79.5 37.5h0M81.0 37.5h0M82.5 37.5h0M84.0 37.5h0M85.5 37.5h0M87.0 37.5h0M88.5 37.5h0M90.0 37.5h0M91.5 37.5h0M93.0 37.5h0M94.5 37.5h0M96.0 37.5h0M97.5 37.5h0M99.0 37.5h0M100.5 37.5h0M102.0 37.5h0M103.5 37.5h0M105.0 37.5h0M106.5 37.5h0M108.0 37.5h0M109.5 37.5h0M111.0 37.5h0M112.5 37.5h0M114.0 37.5h0M115.5 37.5h0M117.0 37.5h0M118.5 37.5h0M120.0 37.5h0M121.5 37.5h0M123.0 37.5h0M124.5 37.5h0M126.0 37.5h0M127.5 37.5h0M129.0 37.5h0M130.5 37.5h0M132.0 37.5h0M133.5 37.5h0M135.0 37.5h0M136.5 37.5h0M138.0 37.5h0M139.5 37.5h0M6.0 39.0h0M7.5 39.0h0M9.0 39.0h0M10.5 39.0h0M12.0 39.0h0M13.5 39.0h0M15.0 39.0h0M16.5 39.0h0M18.0 39.0h0M19.5 39.0h0M21.0 39.0h0M22.5 39.0h0M24.0 39.0h0M25.5 39.0h0M27.0 39.0h0M28.5 39.0h0M30.0 39.0h0M31.5 39.0h0M33.0 39.0h0M34.5 39.0h0M36.0 39.0h0M37.5 39.0h0M39.0 39.0h0M40.5 39.0h0M42.0 39.0h0M43.5 39.0h0M45.0 39.0h0M46.5 39.0h0M48.0 39.0h0M49.5 39.0h0M51.0 39.0h0M52.5 39.0h0M54.0 39.0h0M57.0 39.0h0M58.5 39.0h0M60.0 39.0h0M61.5 39.0h0M63.0 39.0h0M64.5 39.0h0M66.0 39.0h0M67.5 39.0h0M69.0 39.0h0M78.0 39.0h0M79.5 39.0h0M81.0 39.0h0M82.5 39.0h0M84.0 39.0h0M85.5 39.0h0M87.0 39.0h0M88.5 39.0h0M90.0 39.0h0M91.5 39.0h0M93.0 39.0h0M94.5 39.0h0M96.0 39.0h0M97.5 39.0h0M99.0 39.0h0M100.5 39.0h0M102.0 39.0h0M103.5 39.0h0M105.0 39.0h0M106.5 39.0h0M108.0 39.0h0M109.5 39.0h0M111.0 39.0h0M112.5 39.0h0M114.0 39.0h0M115.5 39.0h0M117.0 39.0h0M118.5 39.0h0M120.0 39.0h0M121.5 39.0h0M123.0 39.0h0M124.5 39.0h0M126.0 39.0h0M127.5 39.0h0M129.0 39.0h0M130.5 39.0h0M132.0 39.0h0M133.5 39.0h0M135.0 39.0h0M136.5 39.0h0M138.0 39.0h0M139.5 39.0h0M6.0 40.5h0M7.5 40.5h0M9.0 40.5h0M10.5 40.5h0M12.0 40.5h0M13.5 40.5h0M15.0 40.5h0M16.5 40.5h0M18.0 40.5h0M19.5 40.5h0M21.0 40.5h0M22.5 40.5h0M24.0 40.5h0M25.5 40.5h0M27.0 40.5h0M28.5 40.5h0M30.0 40.5h0M31.5 40.5h0M33.0 40.5h0M34.5 40.5h0M36.0 40.5h0M37.5 40.5h0M39.0 40.5h0M40.5 40.5h0M42.0 40.5h0M43.5 40.5h0M45.0 40.5h0M46.5 40.5h0M48.0 40.5h0M49.5 40.5h0M51.0 40.5h0M52.5 40.5h0M54.0 40.5h0M58.5 40.5h0M60.0 40.5h0M61.5 40.5h0M63.0 40.5h0M64.5 40.5h0M66.0 40.5h0M67.5 40.5h0M69.0 40.5h0M70.5 40.5h0M75.0 40.5h0M76.5 40.5h0M88.5 40.5h0M90.0 40.5h0M91.5 40.5h0M93.0 40.5h0M94.5 40.5h0M96.0 40.5h0M97.5 40.5h0M99.0 40.5h0M100.5 40.5h0M102.0 40.5h0M103.5 40.5h0M105.0 40.5h0M106.5 40.5h0M108.0 40.5h0M109.5 40.5h0M111.0 40.5h0M112.5 40.5h0M114.0 40.5h0M115.5 40.5h0M117.0 40.5h0M118.5 40.5h0M120.0 40.5h0M121.5 40.5h0M123.0 40.5h0M124.5 40.5h0M126.0 40.5h0M127.5 40.5h0M129.0 40.5h0M130.5 40.5h0M132.0 40.5h0M133.5 40.5h0M135.0 40.5h0M136.5 40.5h0M138.0 40.5h0M141.0 40.5h0M4.5 42.0h0M6.0 42.0h0M7.5 42.0h0M9.0 42.0h0M10.5 42.0h0M12.0 42.0h0M13.5 42.0h0M15.0 42.0h0M16.5 42.0h0M18.0 42.0h0M19.5 42.0h0M21.0 42.0h0M22.5 42.0h0M24.0 42.0h0M25.5 42.0h0M27.0 42.0h0M28.5 42.0h0M30.0 42.0h0M31.5 42.0h0M33.0 42.0h0M34.5 42.0h0M36.0 42.0h0M37.5 42.0h0M39.0 42.0h0M40.5 42.0h0M42.0 42.0h0M43.5 42.0h0M45.0 42.0h0M46.5 42.0h0M48.0 42.0h0M49.5 42.0h0M51.0 42.0h0M52.5 42.0h0M54.0 42.0h0M55.5 42.0h0M60.0 42.0h0M61.5 42.0h0M63.0 42.0h0M64.5 42.0h0M66.0 42.0h0M67.5 42.0h0M69.0 42.0h0M70.5 42.0h0M72.0 42.0h0M73.5 42.0h0M75.0 42.0h0M76.5 42.0h0M78.0 42.0h0M90.0 42.0h0M91.5 42.0h0M93.0 42.0h0M94.5 42.0h0M96.0 42.0h0M97.5 42.0h0M99.0 42.0h0M100.5 42.0h0M102.0 42.0h0M103.5 42.0h0M105.0 42.0h0M106.5 42.0h0M108.0 42.0h0M109.5 42.0h0M111.0 42.0h0M112.5 42.0h0M114.0 42.0h0M115.5 42.0h0M117.0 42.0h0M118.5 42.0h0M120.0 42.0h0M121.5 42.0h0M123.0 42.0h0M124.5 42.0h0M126.0 42.0h0M127.5 42.0h0M129.0 42.0h0M130.5 42.0h0M132.0 42.0h0M133.5 42.0h0M135.0 42.0h0M141.0 42.0h0M3.0 43.5h0M4.5 43.5h0M6.0 43.5h0M7.5 43.5h0M9.0 43.5h0M10.5 43.5h0M12.0 43.5h0M13.5 43.5h0M15.0 43.5h0M16.5 43.5h0M18.0 43.5h0M19.5 43.5h0M21.0 43.5h0M22.5 43.5h0M24.0 43.5h0M25.5 43.5h0M27.0 43.5h0M28.5 43.5h0M30.0 43.5h0M31.5 43.5h0M33.0 43.5h0M34.5 43.5h0M36.0 43.5h0M37.5 43.5h0M39.0 43.5h0M40.5 43.5h0M42.0 43.5h0M43.5 43.5h0M45.0 43.5h0M46.5 43.5h0M48.0 43.5h0M49.5 43.5h0M51.0 43.5h0M52.5 43.5h0M54.0 43.5h0M55.5 43.5h0M57.0 43.5h0M60.0 43.5h0M61.5 43.5h0M63.0 43.5h0M64.5 43.5h0M66.0 43.5h0M67.5 43.5h0M69.0 43.5h0M70.5 43.5h0M72.0 43.5h0M73.5 43.5h0M75.0 43.5h0M76.5 43.5h0M78.0 43.5h0M90.0 43.5h0M91.5 43.5h0M93.0 43.5h0M94.5 43.5h0M96.0 43.5h0M97.5 43.5h0M99.0 43.5h0M100.5 43.5h0M102.0 43.5h0M103.5 43.5h0M105.0 43.5h0M106.5 43.5h0M112.5 43.5h0M114.0 43.5h0M115.5 43.5h0M117.0 43.5h0M118.5 43.5h0M120.0 43.5h0M121.5 43.5h0M123.0 43.5h0M124.5 43.5h0M126.0 43.5h0M127.5 43.5h0M130.5 43.5h0M4.5 45.0h0M6.0 45.0h0M7.5 45.0h0M9.0 45.0h0M10.5 45.0h0M12.0 45.0h0M13.5 45.0h0M15.0 45.0h0M16.5 45.0h0M18.0 45.0h0M19.5 45.0h0M21.0 45.0h0M22.5 45.0h0M24.0 45.0h0M25.5 45.0h0M27.0 45.0h0M28.5 45.0h0M30.0 45.0h0M31.5 45.0h0M33.0 45.0h0M34.5 45.0h0M36.0 45.0h0M37.5 45.0h0M39.0 45.0h0M40.5 45.0h0M42.0 45.0h0M43.5 45.0h0M45.0 45.0h0M46.5 45.0h0M48.0 45.0h0M49.5 45.0h0M51.0 45.0h0M52.5 45.0h0M54.0 45.0h0M55.5 45.0h0M57.0 45.0h0M61.5 45.0h0M63.0 45.0h0M64.5 45.0h0M66.0 45.0h0M67.5 45.0h0M69.0 45.0h0M70.5 45.0h0M72.0 45.0h0M73.5 45.0h0M75.0 45.0h0M76.5 45.0h0M93.0 45.0h0M94.5 45.0h0M96.0 45.0h0M97.5 45.0h0M99.0 45.0h0M100.5 45.0h0M102.0 45.0h0M103.5 45.0h0M105.0 45.0h0M114.0 45.0h0M115.5 45.0h0M117.0 45.0h0M118.5 45.0h0M120.0 45.0h0M121.5 45.0h0M123.0 45.0h0M124.5 45.0h0M126.0 45.0h0M130.5 45.0h0M4.5 46.5h0M6.0 46.5h0M7.5 46.5h0M9.0 46.5h0M10.5 46.5h0M12.0 46.5h0M13.5 46.5h0M15.0 46.5h0M16.5 46.5h0M18.0 46.5h0M19.5 46.5h0M21.0 46.5h0M22.5 46.5h0M24.0 46.5h0M25.5 46.5h0M27.0 46.5h0M28.5 46.5h0M30.0 46.5h0M31.5 46.5h0M33.0 46.5h0M34.5 46.5h0M36.0 46.5h0M37.5 46.5h0M39.0 46.5h0M40.5 46.5h0M42.0 46.5h0M43.5 46.5h0M45.0 46.5h0M46.5 46.5h0M48.0 46.5h0M49.5 46.5h0M51.0 46.5h0M52.5 46.5h0M54.0 46.5h0M55.5 46.5h0M57.0 46.5h0M61.5 46.5h0M63.0 46.5h0M64.5 46.5h0M66.0 46.5h0M67.5 46.5h0M69.0 46.5h0M70.5 46.5h0M72.0 46.5h0M73.5 46.5h0M75.0 46.5h0M76.5 46.5h0M93.0 46.5h0M94.5 46.5h0M96.0 46.5h0M97.5 46.5h0M99.0 46.5h0M100.5 46.5h0M102.0 46.5h0M103.5 46.5h0M115.5 46.5h0M117.0 46.5h0M118.5 46.5h0M120.0 46.5h0M121.5 46.5h0M123.0 46.5h0M124.5 46.5h0M126.0 46.5h0M129.0 46.5h0M141.0 46.5h0M4.5 48.0h0M6.0 48.0h0M7.5 48.0h0M9.0 48.0h0M10.5 48.0h0M12.0 48.0h0M13.5 48.0h0M15.0 48.0h0M16.5 48.0h0M18.0 48.0h0M19.5 48.0h0M21.0 48.0h0M22.5 48.0h0M24.0 48.0h0M25.5 48.0h0M27.0 48.0h0M28.5 48.0h0M30.0 48.0h0M31.5 48.0h0M33.0 48.0h0M34.5 48.0h0M36.0 48.0h0M37.5 48.0h0M39.0 48.0h0M40.5 48.0h0M42.0 48.0h0M43.5 48.0h0M45.0 48.0h0M46.5 48.0h0M48.0 48.0h0M49.5 48.0h0M51.0 48.0h0M52.5 48.0h0M54.0 48.0h0M55.5 48.0h0M57.0 48.0h0M58.5 48.0h0M63.0 48.0h0M64.5 48.0h0M66.0 48.0h0M67.5 48.0h0M69.0 48.0h0M70.5 48.0h0M72.0 48.0h0M73.5 48.0h0M94.5 48.0h0M96.0 48.0h0M97.5 48.0h0M99.0 48.0h0M100.5 48.0h0M102.0 48.0h0M115.5 48.0h0M117.0 48.0h0M118.5 48.0h0M120.0 48.0h0M121.5 48.0h0M123.0 48.0h0M124.5 48.0h0M126.0 48.0h0M141.0 48.0h0M4.5 49.5h0M6.0 49.5h0M7.5 49.5h0M9.0 49.5h0M10.5 49.5h0M12.0 49.5h0M13.5 49.5h0M15.0 49.5h0M16.5 49.5h0M18.0 49.5h0M19.5 49.5h0M21.0 49.5h0M22.5 49.5h0M24.0 49.5h0M25.5 49.5h0M27.0 49.5h0M28.5 49.5h0M30.0 49.5h0M31.5 49.5h0M33.0 49.5h0M34.5 49.5h0M36.0 49.5h0M37.5 49.5h0M39.0 49.5h0M40.5 49.5h0M42.0 49.5h0M43.5 49.5h0M45.0 49.5h0M46.5 49.5h0M48.0 49.5h0M49.5 49.5h0M51.0 49.5h0M52.5 49.5h0M54.0 49.5h0M55.5 49.5h0M57.0 49.5h0M58.5 49.5h0M63.0 49.5h0M64.5 49.5h0M66.0 49.5h0M67.5 49.5h0M69.0 49.5h0M70.5 49.5h0M94.5 49.5h0M96.0 49.5h0M97.5 49.5h0M99.0 49.5h0M118.5 49.5h0M120.0 49.5h0M121.5 49.5h0M123.0 49.5h0M124.5 49.5h0M126.0 49.5h0M127.5 49.5h0M141.0 49.5h0M4.5 51.0h0M6.0 51.0h0M7.5 51.0h0M9.0 51.0h0M10.5 51.0h0M12.0 51.0h0M13.5 51.0h0M15.0 51.0h0M16.5 51.0h0M18.0 51.0h0M19.5 51.0h0M21.0 51.0h0M22.5 51.0h0M24.0 51.0h0M25.5 51.0h0M27.0 51.0h0M28.5 51.0h0M30.0 51.0h0M31.5 51.0h0M33.0 51.0h0M34.5 51.0h0M36.0 51.0h0M37.5 51.0h0M39.0 51.0h0M40.5 51.0h0M42.0 51.0h0M43.5 51.0h0M45.0 51.0h0M46.5 51.0h0M48.0 51.0h0M49.5 51.0h0M51.0 51.0h0M52.5 51.0h0M54.0 51.0h0M55.5 51.0h0M57.0 51.0h0M58.5 51.0h0M60.0 51.0h0M61.5 51.0h0M64.5 51.0h0M66.0 51.0h0M67.5 51.0h0M96.0 51.0h0M97.5 51.0h0M99.0 51.0h0M118.5 51.0h0M120.0 51.0h0M121.5 51.0h0M123.0 51.0h0M124.5 51.0h0M126.0 51.0h0M127.5 51.0h0M129.0 51.0h0M141.0 51.0h0M142.5 51.0h0M4.5 52.5h0M6.0 52.5h0M7.5 52.5h0M9.0 52.5h0M10.5 52.5h0M12.0 52.5h0M13.5 52.5h0M15.0 52.5h0M16.5 52.5h0M18.0 52.5h0M19.5 52.5h0M21.0 52.5h0M22.5 52.5h0M24.0 52.5h0M25.5 52.5h0M27.0 52.5h0M28.5 52.5h0M30.0 52.5h0M31.5 52.5h0M33.0 52.5h0M34.5 52.5h0M36.0 52.5h0M37.5 52.5h0M39.0 52.5h0M40.5 52.5h0M42.0 52.5h0M43.5 52.5h0M45.0 52.5h0M46.5 52.5h0M48.0 52.5h0M49.5 52.5h0M51.0 52.5h0M52.5 52.5h0M54.0 52.5h0M55.5 52.5h0M57.0 52.5h0M58.5 52.5h0M60.0 52.5h0M61.5 52.5h0M63.0 52.5h0M96.0 52.5h0M97.5 52.5h0M99.0 52.5h0M118.5 52.5h0M120.0 52.5h0M123.0 52.5h0M124.5 52.5h0M126.0 52.5h0M127.5 52.5h0M129.0 52.5h0M6.0 54.0h0M7.5 54.0h0M9.0 54.0h0M10.5 54.0h0M12.0 54.0h0M13.5 54.0h0M15.0 54.0h0M16.5 54.0h0M18.0 54.0h0M19.5 54.0h0M21.0 54.0h0M22.5 54.0h0M24.0 54.0h0M25.5 54.0h0M27.0 54.0h0M28.5 54.0h0M30.0 54.0h0M31.5 54.0h0M33.0 54.0h0M34.5 54.0h0M36.0 54.0h0M37.5 54.0h0M39.0 54.0h0M40.5 54.0h0M42.0 54.0h0M43.5 54.0h0M45.0 54.0h0M46.5 54.0h0M48.0 54.0h0M49.5 54.0h0M51.0 54.0h0M52.5 54.0h0M54.0 54.0h0M55.5 54.0h0M57.0 54.0h0M58.5 54.0h0M60.0 54.0h0M61.5 54.0h0M63.0 54.0h0M67.5 54.0h0M69.0 54.0h0M70.5 54.0h0M96.0 54.0h0M97.5 54.0h0M99.0 54.0h0M124.5 54.0h0M126.0 54.0h0M127.5 54.0h0M139.5 54.0h0M142.5 54.0h0M144.0 54.0h0M7.5 55.5h0M9.0 55.5h0M10.5 55.5h0M12.0 55.5h0M13.5 55.5h0M15.0 55.5h0M16.5 55.5h0M18.0 55.5h0M19.5 55.5h0M21.0 55.5h0M22.5 55.5h0M24.0 55.5h0M25.5 55.5h0M27.0 55.5h0M28.5 55.5h0M30.0 55.5h0M31.5 55.5h0M33.0 55.5h0M34.5 55.5h0M36.0 55.5h0M37.5 55.5h0M39.0 55.5h0M40.5 55.5h0M42.0 55.5h0M43.5 55.5h0M45.0 55.5h0M46.5 55.5h0M48.0 55.5h0M49.5 55.5h0M51.0 55.5h0M52.5 55.5h0M54.0 55.5h0M55.5 55.5h0M57.0 55.5h0M58.5 55.5h0M60.0 55.5h0M61.5 55.5h0M63.0 55.5h0M64.5 55.5h0M66.0 55.5h0M67.5 55.5h0M69.0 55.5h0M70.5 55.5h0M97.5 55.5h0M100.5 55.5h0M118.5 55.5h0M126.0 55.5h0M145.5 55.5h0M7.5 57.0h0M9.0 57.0h0M10.5 57.0h0M12.0 57.0h0M13.5 57.0h0M15.0 57.0h0M16.5 57.0h0M18.0 57.0h0M19.5 57.0h0M21.0 57.0h0M22.5 57.0h0M24.0 57.0h0M25.5 57.0h0M27.0 57.0h0M28.5 57.0h0M30.0 57.0h0M31.5 57.0h0M33.0 57.0h0M34.5 57.0h0M36.0 57.0h0M37.5 57.0h0M39.0 57.0h0M40.5 57.0h0M42.0 57.0h0M43.5 57.0h0M45.0 57.0h0M46.5 57.0h0M48.0 57.0h0M49.5 57.0h0M51.0 57.0h0M52.5 57.0h0M54.0 57.0h0M55.5 57.0h0M57.0 57.0h0M58.5 57.0h0M60.0 57.0h0M61.5 57.0h0M63.0 57.0h0M64.5 57.0h0M66.0 57.0h0M67.5 57.0h0M69.0 57.0h0M100.5 57.0h0M120.0 57.0h0M142.5 57.0h0M144.0 57.0h0M145.5 57.0h0M9.0 58.5h0M10.5 58.5h0M12.0 58.5h0M13.5 58.5h0M15.0 58.5h0M16.5 58.5h0M18.0 58.5h0M19.5 58.5h0M21.0 58.5h0M22.5 58.5h0M24.0 58.5h0M25.5 58.5h0M27.0 58.5h0M28.5 58.5h0M30.0 58.5h0M31.5 58.5h0M33.0 58.5h0M34.5 58.5h0M36.0 58.5h0M37.5 58.5h0M39.0 58.5h0M40.5 58.5h0M42.0 58.5h0M43.5 58.5h0M45.0 58.5h0M46.5 58.5h0M48.0 58.5h0M49.5 58.5h0M51.0 58.5h0M52.5 58.5h0M54.0 58.5h0M55.5 58.5h0M57.0 58.5h0M58.5 58.5h0M60.0 58.5h0M61.5 58.5h0M63.0 58.5h0M64.5 58.5h0M66.0 58.5h0M67.5 58.5h0M69.0 58.5h0M100.5 58.5h0M121.5 58.5h0M136.5 58.5h0M12.0 60.0h0M13.5 60.0h0M18.0 60.0h0M25.5 60.0h0M27.0 60.0h0M28.5 60.0h0M30.0 60.0h0M31.5 60.0h0M33.0 60.0h0M34.5 60.0h0M36.0 60.0h0M37.5 60.0h0M39.0 60.0h0M40.5 60.0h0M42.0 60.0h0M43.5 60.0h0M45.0 60.0h0M46.5 60.0h0M48.0 60.0h0M49.5 60.0h0M51.0 60.0h0M52.5 60.0h0M54.0 60.0h0M55.5 60.0h0M57.0 60.0h0M58.5 60.0h0M60.0 60.0h0M61.5 60.0h0M63.0 60.0h0M64.5 60.0h0M66.0 60.0h0M67.5 60.0h0M115.5 60.0h0M117.0 60.0h0M121.5 60.0h0M123.0 60.0h0M135.0 60.0h0M136.5 60.0h0M138.0 60.0h0M30.0 61.5h0M31.5 61.5h0M33.0 61.5h0M34.5 61.5h0M36.0 61.5h0M37.5 61.5h0M39.0 61.5h0M40.5 61.5h0M42.0 61.5h0M43.5 61.5h0M45.0 61.5h0M46.5 61.5h0M48.0 61.5h0M49.5 61.5h0M51.0 61.5h0M52.5 61.5h0M54.0 61.5h0M55.5 61.5h0M57.0 61.5h0M58.5 61.5h0M60.0 61.5h0M61.5 61.5h0M63.0 61.5h0M64.5 61.5h0M66.0 61.5h0M117.0 61.5h0M118.5 61.5h0M121.5 61.5h0M123.0 61.5h0M133.5 61.5h0M135.0 61.5h0M136.5 61.5h0M30.0 63.0h0M31.5 63.0h0M33.0 63.0h0M34.5 63.0h0M36.0 63.0h0M37.5 63.0h0M39.0 63.0h0M40.5 63.0h0M42.0 63.0h0M43.5 63.0h0M45.0 63.0h0M46.5 63.0h0M48.0 63.0h0M49.5 63.0h0M51.0 63.0h0M52.5 63.0h0M54.0 63.0h0M55.5 63.0h0M57.0 63.0h0M58.5 63.0h0M60.0 63.0h0M61.5 63.0h0M63.0 63.0h0M64.5 63.0h0M118.5 63.0h0M120.0 63.0h0M121.5 63.0h0M123.0 63.0h0M132.0 63.0h0M133.5 63.0h0M135.0 63.0h0M136.5 63.0h0M30.0 64.5h0M31.5 64.5h0M33.0 64.5h0M34.5 64.5h0M36.0 64.5h0M37.5 64.5h0M39.0 64.5h0M40.5 64.5h0M42.0 64.5h0M43.5 64.5h0M45.0 64.5h0M46.5 64.5h0M48.0 64.5h0M49.5 64.5h0M51.0 64.5h0M52.5 64.5h0M54.0 64.5h0M55.5 64.5h0M57.0 64.5h0M58.5 64.5h0M60.0 64.5h0M61.5 64.5h0M63.0 64.5h0M120.0 64.5h0M121.5 64.5h0M123.0 64.5h0M129.0 64.5h0M130.5 64.5h0M132.0 64.5h0M133.5 64.5h0M135.0 64.5h0M136.5 64.5h0M141.0 64.5h0M142.5 64.5h0M144.0 64.5h0M148.5 64.5h0M30.0 66.0h0M31.5 66.0h0M33.0 66.0h0M34.5 66.0h0M36.0 66.0h0M37.5 66.0h0M39.0 66.0h0M40.5 66.0h0M42.0 66.0h0M43.5 66.0h0M45.0 66.0h0M46.5 66.0h0M48.0 66.0h0M49.5 66.0h0M51.0 66.0h0M52.5 66.0h0M54.0 66.0h0M55.5 66.0h0M57.0 66.0h0M58.5 66.0h0M60.0 66.0h0M61.5 66.0h0M121.5 66.0h0M123.0 66.0h0M130.5 66.0h0M132.0 66.0h0M133.5 66.0h0M135.0 66.0h0M136.5 66.0h0M139.5 66.0h0M142.5 66.0h0M151.5 66.0h0M153.0 66.0h0M30.0 67.5h0M31.5 67.5h0M33.0 67.5h0M34.5 67.5h0M36.0 67.5h0M37.5 67.5h0M39.0 67.5h0M40.5 67.5h0M42.0 67.5h0M43.5 67.5h0M45.0 67.5h0M46.5 67.5h0M48.0 67.5h0M49.5 67.5h0M51.0 67.5h0M52.5 67.5h0M54.0 67.5h0M55.5 67.5h0M57.0 67.5h0M58.5 67.5h0M60.0 67.5h0M121.5 67.5h0M123.0 67.5h0M124.5 67.5h0M130.5 67.5h0M132.0 67.5h0M133.5 67.5h0M135.0 67.5h0M136.5 67.5h0M139.5 67.5h0M141.0 67.5h0M153.0 67.5h0M157.5 67.5h0M159.0 67.5h0M31.5 69.0h0M33.0 69.0h0M34.5 69.0h0M36.0 69.0h0M37.5 69.0h0M39.0 69.0h0M40.5 69.0h0M42.0 69.0h0M43.5 69.0h0M45.0 69.0h0M46.5 69.0h0M48.0 69.0h0M49.5 69.0h0M51.0 69.0h0M52.5 69.0h0M54.0 69.0h0M55.5 69.0h0M57.0 69.0h0M58.5 69.0h0M123.0 69.0h0M124.5 69.0h0M135.0 69.0h0M142.5 69.0h0M153.0 69.0h0M154.5 69.0h0M156.0 69.0h0M157.5 69.0h0M159.0 69.0h0M160.5 69.0h0M162.0 69.0h0M163.5 69.0h0M33.0 70.5h0M34.5 70.5h0M36.0 70.5h0M37.5 70.5h0M39.0 70.5h0M40.5 70.5h0M42.0 70.5h0M43.5 70.5h0M45.0 70.5h0M46.5 70.5h0M48.0 70.5h0M49.5 70.5h0M51.0 70.5h0M52.5 70.5h0M54.0 70.5h0M55.5 70.5h0M57.0 70.5h0M58.5 70.5h0M124.5 70.5h0M142.5 70.5h0M154.5 70.5h0M159.0 70.5h0M160.5 70.5h0M162.0 70.5h0M163.5 70.5h0M165.0 70.5h0M33.0 72.0h0M34.5 72.0h0M36.0 72.0h0M37.5 72.0h0M39.0 72.0h0M40.5 72.0h0M42.0 72.0h0M43.5 72.0h0M45.0 72.0h0M46.5 72.0h0M48.0 72.0h0M49.5 72.0h0M51.0 72.0h0M52.5 72.0h0M54.0 72.0h0M55.5 72.0h0M57.0 72.0h0M58.5 72.0h0M127.5 72.0h0M129.0 72.0h0M130.5 72.0h0M132.0 72.0h0M159.0 72.0h0M160.5 72.0h0M162.0 72.0h0M163.5 72.0h0M165.0 72.0h0M166.5 72.0h0M34.5 73.5h0M36.0 73.5h0M37.5 73.5h0M39.0 73.5h0M40.5 73.5h0M42.0 73.5h0M43.5 73.5h0M45.0 73.5h0M46.5 73.5h0M48.0 73.5h0M49.5 73.5h0M51.0 73.5h0M52.5 73.5h0M54.0 73.5h0M55.5 73.5h0M57.0 73.5h0M58.5 73.5h0M135.0 73.5h0M138.0 73.5h0M141.0 73.5h0M142.5 73.5h0M147.0 73.5h0M160.5 73.5h0M162.0 73.5h0M166.5 73.5h0M168.0 73.5h0M34.5 75.0h0M36.0 75.0h0M37.5 75.0h0M39.0 75.0h0M40.5 75.0h0M42.0 75.0h0M43.5 75.0h0M45.0 75.0h0M46.5 75.0h0M48.0 75.0h0M49.5 75.0h0M51.0 75.0h0M52.5 75.0h0M54.0 75.0h0M55.5 75.0h0M57.0 75.0h0M58.5 75.0h0M144.0 75.0h0M168.0 75.0h0M169.5 75.0h0M34.5 76.5h0M36.0 76.5h0M37.5 76.5h0M39.0 76.5h0M40.5 76.5h0M42.0 76.5h0M43.5 76.5h0M45.0 76.5h0M46.5 76.5h0M48.0 76.5h0M49.5 76.5h0M51.0 76.5h0M52.5 76.5h0M54.0 76.5h0M55.5 76.5h0M57.0 76.5h0M58.5 76.5h0M60.0 76.5h0M153.0 76.5h0M33.0 78.0h0M34.5 78.0h0M36.0 78.0h0M37.5 78.0h0M39.0 78.0h0M40.5 78.0h0M42.0 78.0h0M43.5 78.0h0M45.0 78.0h0M46.5 78.0h0M48.0 78.0h0M49.5 78.0h0M51.0 78.0h0M52.5 78.0h0M54.0 78.0h0M55.5 78.0h0M57.0 78.0h0M58.5 78.0h0M60.0 78.0h0M69.0 78.0h0M151.5 78.0h0M153.0 78.0h0M154.5 78.0h0M156.0 78.0h0M162.0 78.0h0M163.5 78.0h0M33.0 79.5h0M34.5 79.5h0M36.0 79.5h0M37.5 79.5h0M39.0 79.5h0M40.5 79.5h0M42.0 79.5h0M43.5 79.5h0M45.0 79.5h0M46.5 79.5h0M48.0 79.5h0M49.5 79.5h0M51.0 79.5h0M52.5 79.5h0M54.0 79.5h0M55.5 79.5h0M57.0 79.5h0M58.5 79.5h0M60.0 79.5h0M69.0 79.5h0M147.0 79.5h0M150.0 79.5h0M151.5 79.5h0M153.0 79.5h0M154.5 79.5h0M162.0 79.5h0M163.5 79.5h0"/>
+          <g class="map-routes">
+            <path d="M30 15 Q52.6 5.0 75.3 39.8"/>
+            <path d="M134 35 Q104.7 25.0 75.3 39.8"/>
+            <path d="M123.8 63.6 Q99.5 31.8 75.3 39.8"/>
+          </g>
+          <g class="map-points">
+            <circle cx="30" cy="15" r="1.4"/>
+            <circle cx="134" cy="35" r="1.4"/>
+            <circle cx="123.8" cy="63.6" r="1.4"/>
+          </g>
+          <g class="map-hub">
+            <circle cx="75.3" cy="39.8" r="4.5" class="ring"/>
+            <circle cx="75.3" cy="39.8" r="1.8"/>
+          </g>
+          <g class="map-labels">
+            <text x="30" y="11.5" text-anchor="middle">Europe</text>
+            <text x="134" y="31.5" text-anchor="middle">East Asia</text>
+            <text x="123.8" y="70.1" text-anchor="middle">Singapore</text>
+            <text x="75.3" y="48.8" text-anchor="middle" class="hub-label">UAE</text>
+          </g>
+        </svg>
+        <figcaption>Principal sourcing routes into the UAE. Goods are also supplied onward to other countries.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- COMPANY + PEOPLE -->
+  <section id="people" class="section section--alt">
+    <div class="wrap">
+      <div class="company">
+        <div>
+          <h2>Company information</h2>
+          <p class="company__text">Shambhavi Global Trading FZCO is licensed in Dubai for two activities: general trading, and investment in commercial enterprises and management. It is a subsidiary of Neostar InfraProjects Pvt Ltd.</p>
+        </div>
         <dl class="fields">
           <div><dt>Legal name</dt><dd>Shambhavi Global Trading FZCO</dd></div>
           <div><dt>Legal form</dt><dd>Free Zone Company</dd></div>
@@ -181,53 +224,73 @@
           <div><dt>Parent company</dt><dd>Neostar InfraProjects Pvt Ltd</dd></div>
         </dl>
       </div>
-    </div>
-  </section>
 
-  <!-- PEOPLE -->
-  <section id="people" class="section section--alt">
-    <div class="wrap">
-      <header class="section__head">
-        <h2 class="numbered"><span class="boxno">4</span>Who you will deal with</h2>
-      </header>
+      <h3 class="people__title">Key people</h3>
       <ul class="people">
         <li class="person">
-          <span class="person__mono" aria-hidden="true">AP</span>
-          <h3>Abhijit Pawar</h3>
-          <p>Chairman, AP Globale</p>
+          <img class="person__photo" src="images/people/abhijit-pawar.png" alt="Portrait of Abhijit Pawar" width="120" height="120" loading="lazy">
+          <div>
+            <h4>Abhijit Pawar</h4>
+            <p>Chairman, AP Globale</p>
+          </div>
         </li>
         <li class="person">
-          <span class="person__mono" aria-hidden="true">SF</span>
-          <h3>Stefanie Maria Feicht</h3>
-          <p>Director, Investments &amp; Capital Partnerships, APG Wealth</p>
+          <img class="person__photo" src="images/people/stefanie-feicht.png" alt="Portrait of Stefanie Maria Feicht" width="120" height="120" loading="lazy">
+          <div>
+            <h4>Stefanie Maria Feicht</h4>
+            <p>Director, Investments &amp; Capital Partnerships, APG Wealth</p>
+          </div>
         </li>
         <li class="person">
-          <span class="person__mono" aria-hidden="true">RV</span>
-          <h3>Raviraj Vahadane</h3>
-          <p>President, Finance, AP Globale</p>
+          <img class="person__photo" src="images/people/raviraj-vahadane.png" alt="Portrait of Raviraj Vahadane" width="120" height="120" loading="lazy">
+          <div>
+            <h4>Raviraj Vahadane</h4>
+            <p>President, Finance, AP Globale</p>
+          </div>
         </li>
         <li class="person">
           <span class="person__mono" aria-hidden="true">JM</span>
-          <h3>Jaydeep Mane</h3>
-          <p class="tbc">Title to be supplied</p>
+          <div>
+            <h4>Jaydeep Mane</h4>
+            <p class="tbc">Title to be supplied</p>
+          </div>
         </li>
       </ul>
     </div>
   </section>
 
+  <!-- INVESTMENT -->
+  <section id="investment" class="section">
+    <div class="wrap invest">
+      <div class="invest__photo">
+        <img src="https://images.unsplash.com/photo-1593519741064-a8d20971d8b9?auto=format&fit=crop&w=1000&q=75" alt="Curved glass facade of a commercial office building against a blue sky" loading="lazy" width="1000" height="1250">
+      </div>
+      <div class="invest__body">
+        <h2>Investment in commercial enterprises</h2>
+        <p class="invest__lead">Alongside trading, we invest surplus profits and our own funds in a small number of holdings, which we keep and manage alongside the trading business.</p>
+        <ul class="invest__list">
+          <li>Listed securities</li>
+          <li>Unlisted shares and debentures</li>
+          <li>Commercial property</li>
+        </ul>
+        <p class="invest__note">We invest only our own capital. We do not manage money for third parties or offer investment products to the public.</p>
+      </div>
+    </div>
+  </section>
+
   <!-- CONTACT -->
-  <section id="contact" class="section contact">
+  <section id="contact" class="section section--alt contact">
     <div class="wrap contact__grid">
-      <header class="section__head">
-        <h2 class="numbered"><span class="boxno">5</span>Send a trade enquiry</h2>
-        <p class="section__note">Tell us the commodity, quantity and destination if you have them.</p>
+      <div>
+        <h2>Contact us</h2>
+        <p class="section__intro">For trade enquiries, tell us the commodity, quantity and destination if you have them.</p>
         <dl class="fields fields--compact">
           <div><dt>Email</dt><dd><a href="mailto:info@shambhaviglobal.com" data-email>info@shambhaviglobal.com</a> <span class="tbc tbc--inline">to confirm</span></dd></div>
           <div><dt>Telephone</dt><dd class="tbc">To be supplied</dd></div>
           <div><dt>Office</dt><dd class="tbc">Registered address to be supplied</dd></div>
-          <div><dt>Hours</dt><dd>Sun–Thu, 09:00–18:00 GST</dd></div>
+          <div><dt>Office hours</dt><dd>Sunday to Thursday, 09:00–18:00 GST</dd></div>
         </dl>
-      </header>
+      </div>
 
       <form class="form" id="enquiry" novalidate>
         <div class="form__row">
@@ -246,7 +309,7 @@
         </fieldset>
         <label>Message<textarea name="message" rows="5" required placeholder="Commodity, quantity, destination…"></textarea></label>
         <div class="form__foot">
-          <button class="btn" type="submit">Prepare email</button>
+          <button class="btn" type="submit">Send enquiry</button>
           <p class="form__hint" id="formHint">Opens your email client with the enquiry filled in.</p>
         </div>
       </form>
@@ -256,19 +319,25 @@
 </main>
 
 <footer class="footer">
-  <div class="wrap footer__grid">
-    <div>
-      <p class="wordmark wordmark--footer"><span class="wordmark__name">Shambhavi</span><span class="wordmark__sub">Global Trading FZCO</span></p>
-      <p>A subsidiary of Neostar InfraProjects Pvt Ltd.<br>Free Zone Company, Dubai, United Arab Emirates.</p>
+  <div class="wrap">
+    <div class="footer__grid">
+      <div>
+        <p class="wordmark wordmark--footer">
+          <span class="wordmark__mark" aria-hidden="true"></span>
+          <span class="wordmark__text"><span class="wordmark__name">Shambhavi</span><span class="wordmark__sub">Global Trading FZCO</span></span>
+        </p>
+        <p class="footer__about">A subsidiary of Neostar InfraProjects Pvt Ltd.<br>Free Zone Company, Dubai, United Arab Emirates.</p>
+      </div>
+      <nav class="footer__nav" aria-label="Footer">
+        <a href="#trade">Trading</a>
+        <a href="#corridors">Markets</a>
+        <a href="#people">Company</a>
+        <a href="#investment">Investment</a>
+        <a href="#contact">Contact us</a>
+      </nav>
+      <p class="footer__legal">Trade licence no. <span class="tbc tbc--inline">to be supplied</span><br>Photography: Unsplash.</p>
     </div>
-    <nav class="footer__nav" aria-label="Footer">
-      <a href="#trade">Trade</a>
-      <a href="#investment">Investment</a>
-      <a href="#company">Company</a>
-      <a href="#people">People</a>
-      <a href="#contact">Enquire</a>
-    </nav>
-    <p class="footer__legal">&copy; <span id="year">2026</span> Shambhavi Global Trading FZCO.<br>Trade licence no. <span class="tbc tbc--inline">to be supplied</span></p>
+    <p class="footer__copy">&copy; <span id="year">2026</span> Shambhavi Global Trading FZCO. All rights reserved.</p>
   </div>
 </footer>
 
